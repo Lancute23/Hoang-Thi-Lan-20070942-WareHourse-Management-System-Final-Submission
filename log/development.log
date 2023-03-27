@@ -101,3 +101,274 @@ Processing by ManagersController#index as HTML
 Completed 200 OK in 35ms (Views: 24.0ms | ActiveRecord: 0.4ms | Allocations: 5120)
 
 
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2023-03-27 22:01:32 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+Started GET "/" for 127.0.0.1 at 2023-03-27 22:01:33 +0700
+  Rendered home/index.html.erb within layouts/application (Duration: 195.7ms | Allocations: 2361)
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 658)
+  Rendered shared/_head.html.erb (Duration: 340.7ms | Allocations: 7605)
+  Rendered layout layouts/application.html.erb (Duration: 394.1ms | Allocations: 8733)
+Completed 500 Internal Server Error in 399ms (ActiveRecord: 0.0ms | Allocations: 9071)
+
+
+  
+ActionView::Template::Error (Permission denied @ rb_file_s_rename - (C:/Users/ADMIN/Hoang-Thi-Lan-20070942-WareHourse-Management-System-Final-Submission/Hoang-Thi-Lan-20070942-WareHourse-Management-System-Final-Submission/tmp/cache/assets/sprockets/v4.0.0/se/se3kd3ZFjfR6_o5fQyTS7GN2st4g2YptxsV_EPGThS0.cache.27380.12508.617792, C:/Users/ADMIN/Hoang-Thi-Lan-20070942-WareHourse-Management-System-Final-Submission/Hoang-Thi-Lan-20070942-WareHourse-Management-System-Final-Submission/tmp/cache/assets/sprockets/v4.0.0/se/se3kd3ZFjfR6_o5fQyTS7GN2st4g2YptxsV_EPGThS0.cache)):
+     7:   <%= csp_meta_tag %>
+     8: 
+     9:   <meta name="viewport" content="width=device-width, initial-scale=1">
+    10:   <%= stylesheet_link_tag  'application', 'data-turbolinks-track': 'reload' %>
+    11:   <%= javascript_include_tag "application", defer: true %>
+    12:   <%#= javascript_include_tag 'https://js.stripe.com/v3/', 'data-turbolinks-track': 'reload' %>
+    13: </head>
+  
+app/views/shared/_head.html.erb:10
+app/views/layouts/application.html.erb:3
+  Rendered shared/_head.html.erb (Duration: 2462.3ms | Allocations: 389129)
+  Rendered shared/_flash_notice.html.erb (Duration: 26.9ms | Allocations: 7083)
+  Rendered shared/_navbar.html.erb (Duration: 84.6ms | Allocations: 1171)
+  Rendered layout layouts/application.html.erb (Duration: 2843.4ms | Allocations: 402599)
+Completed 200 OK in 3191ms (Views: 2929.0ms | ActiveRecord: 0.0ms | Allocations: 406746)
+
+
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2023-03-27 22:03:58 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1580)
+  Rendered shared/_head.html.erb (Duration: 216.0ms | Allocations: 21769)
+  Rendered shared/_flash_notice.html.erb (Duration: 1.6ms | Allocations: 182)
+  Rendered shared/_navbar.html.erb (Duration: 2.8ms | Allocations: 953)
+  Rendered layout layouts/application.html.erb (Duration: 236.9ms | Allocations: 25183)
+Completed 200 OK in 287ms (Views: 254.4ms | ActiveRecord: 0.0ms | Allocations: 29114)
+
+
+Started GET "/customers" for 127.0.0.1 at 2023-03-27 22:04:03 +0700
+Processing by CustomersController#index as HTML
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 937)
+
+
+  
+SyntaxError (C:/Users/ADMIN/Hoang-Thi-Lan-20070942-WareHourse-Management-System-Final-Submission/Hoang-Thi-Lan-20070942-WareHourse-Management-System-Final-Submission/app/models/customer.rb:2: syntax error, unexpected ':', expecting `end'
+    validates_presence_of : name, : phone_no, :address
+                          ^
+C:/Users/ADMIN/Hoang-Thi-Lan-20070942-WareHourse-Management-System-Final-Submission/Hoang-Thi-Lan-20070942-WareHourse-Management-System-Final-Submission/app/models/customer.rb:2: syntax error, unexpected '\n', expecting '.' or &. or :: or '['
+...of : name, : phone_no, :address
+...                               ^
+):
+  
+app/models/customer.rb:2: syntax error, unexpected ':', expecting `end'
+app/models/customer.rb:2: syntax error, unexpected '\n', expecting '.' or &. or :: or '['
+app/models/customer.rb:2: syntax error, unexpected ':', expecting `end'
+app/models/customer.rb:2: syntax error, unexpected '\n', expecting '.' or &. or :: or '['
+app/models/customer.rb:2: syntax error, unexpected ':', expecting `end'
+app/models/customer.rb:2: syntax error, unexpected '\n', expecting '.' or &. or :: or '['
+app/controllers/customers_controller.rb:6:in `index'
+Started GET "/" for 127.0.0.1 at 2023-03-27 22:04:20 +0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 676)
+  Rendered shared/_head.html.erb (Duration: 17.4ms | Allocations: 1943)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 26)
+  Rendered shared/_navbar.html.erb (Duration: 1.5ms | Allocations: 319)
+  Rendered layout layouts/application.html.erb (Duration: 28.4ms | Allocations: 3222)
+Completed 200 OK in 33ms (Views: 31.2ms | ActiveRecord: 0.0ms | Allocations: 3530)
+
+
+Started GET "/customers" for 127.0.0.1 at 2023-03-27 22:04:30 +0700
+Processing by CustomersController#index as HTML
+Completed 500 Internal Server Error in 251ms (ActiveRecord: 0.0ms | Allocations: 5938)
+
+
+  
+SyntaxError (C:/Users/ADMIN/Hoang-Thi-Lan-20070942-WareHourse-Management-System-Final-Submission/Hoang-Thi-Lan-20070942-WareHourse-Management-System-Final-Submission/app/models/customer.rb:2: syntax error, unexpected ':', expecting `end'
+    validates_presence_of : name, : phone_no, :address
+                          ^
+C:/Users/ADMIN/Hoang-Thi-Lan-20070942-WareHourse-Management-System-Final-Submission/Hoang-Thi-Lan-20070942-WareHourse-Management-System-Final-Submission/app/models/customer.rb:2: syntax error, unexpected '\n', expecting '.' or &. or :: or '['
+...of : name, : phone_no, :address
+...                               ^
+):
+  
+app/models/customer.rb:2: syntax error, unexpected ':', expecting `end'
+app/models/customer.rb:2: syntax error, unexpected '\n', expecting '.' or &. or :: or '['
+app/models/customer.rb:2: syntax error, unexpected ':', expecting `end'
+app/models/customer.rb:2: syntax error, unexpected '\n', expecting '.' or &. or :: or '['
+app/models/customer.rb:2: syntax error, unexpected ':', expecting `end'
+app/models/customer.rb:2: syntax error, unexpected '\n', expecting '.' or &. or :: or '['
+app/controllers/customers_controller.rb:6:in `index'
+Started GET "/managers" for 127.0.0.1 at 2023-03-27 22:04:58 +0700
+Processing by ManagersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering managers/index.html.erb within layouts/application
+  [1m[36mManager Load (0.5ms)[0m  [1m[34mSELECT "managers".* FROM "managers"[0m
+  ↳ app/views/managers/index.html.erb:26
+  Rendered managers/index.html.erb within layouts/application (Duration: 28.3ms | Allocations: 1192)
+  Rendered shared/_head.html.erb (Duration: 12.1ms | Allocations: 2025)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 29)
+  Rendered shared/_navbar.html.erb (Duration: 1.4ms | Allocations: 321)
+  Rendered layout layouts/application.html.erb (Duration: 44.9ms | Allocations: 3841)
+Completed 200 OK in 82ms (Views: 61.3ms | ActiveRecord: 0.5ms | Allocations: 5291)
+
+
+Started GET "/managers/new" for 127.0.0.1 at 2023-03-27 22:05:03 +0700
+Processing by ManagersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering managers/new.html.erb within layouts/application
+  Rendered managers/_form.html.erb (Duration: 420.8ms | Allocations: 6741)
+  Rendered managers/new.html.erb within layouts/application (Duration: 441.9ms | Allocations: 7001)
+  Rendered shared/_head.html.erb (Duration: 14.5ms | Allocations: 1717)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 26)
+  Rendered shared/_navbar.html.erb (Duration: 1.2ms | Allocations: 301)
+  Rendered layout layouts/application.html.erb (Duration: 463.1ms | Allocations: 9322)
+Completed 200 OK in 659ms (Views: 464.5ms | ActiveRecord: 2.4ms | Allocations: 19229)
+
+
+Started POST "/managers" for 127.0.0.1 at 2023-03-27 22:05:06 +0700
+Processing by ManagersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "manager"=>{"name"=>"", "phone_no"=>"", "address"=>""}, "commit"=>"Create Manager"}
+  Rendering layout layouts/application.html.erb
+  Rendering managers/new.html.erb within layouts/application
+  Rendered managers/_form.html.erb (Duration: 7.3ms | Allocations: 3325)
+  Rendered managers/new.html.erb within layouts/application (Duration: 8.0ms | Allocations: 3391)
+  Rendered shared/_head.html.erb (Duration: 10.6ms | Allocations: 1698)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 26)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 296)
+  Rendered layout layouts/application.html.erb (Duration: 22.6ms | Allocations: 5670)
+Completed 422 Unprocessable Entity in 27ms (Views: 23.8ms | ActiveRecord: 0.0ms | Allocations: 7274)
+
+
+Started GET "/managers" for 127.0.0.1 at 2023-03-27 22:05:12 +0700
+Processing by ManagersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering managers/index.html.erb within layouts/application
+  [1m[36mManager Load (0.5ms)[0m  [1m[34mSELECT "managers".* FROM "managers"[0m
+  ↳ app/views/managers/index.html.erb:26
+  Rendered managers/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 655)
+  Rendered shared/_head.html.erb (Duration: 33.7ms | Allocations: 1762)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 1.0ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 41.0ms | Allocations: 2971)
+Completed 200 OK in 43ms (Views: 42.0ms | ActiveRecord: 0.5ms | Allocations: 3246)
+
+
+Started GET "/customers" for 127.0.0.1 at 2023-03-27 22:05:16 +0700
+Processing by CustomersController#index as HTML
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 805)
+
+
+  
+SyntaxError (C:/Users/ADMIN/Hoang-Thi-Lan-20070942-WareHourse-Management-System-Final-Submission/Hoang-Thi-Lan-20070942-WareHourse-Management-System-Final-Submission/app/models/customer.rb:2: syntax error, unexpected ':', expecting `end'
+    validates_presence_of : name, : phone_no, :address
+                          ^
+C:/Users/ADMIN/Hoang-Thi-Lan-20070942-WareHourse-Management-System-Final-Submission/Hoang-Thi-Lan-20070942-WareHourse-Management-System-Final-Submission/app/models/customer.rb:2: syntax error, unexpected '\n', expecting '.' or &. or :: or '['
+...of : name, : phone_no, :address
+...                               ^
+):
+  
+app/models/customer.rb:2: syntax error, unexpected ':', expecting `end'
+app/models/customer.rb:2: syntax error, unexpected '\n', expecting '.' or &. or :: or '['
+app/models/customer.rb:2: syntax error, unexpected ':', expecting `end'
+app/models/customer.rb:2: syntax error, unexpected '\n', expecting '.' or &. or :: or '['
+app/models/customer.rb:2: syntax error, unexpected ':', expecting `end'
+app/models/customer.rb:2: syntax error, unexpected '\n', expecting '.' or &. or :: or '['
+app/controllers/customers_controller.rb:6:in `index'
+Started GET "/customer" for 127.0.0.1 at 2023-03-27 22:05:22 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/customer"):
+  
+Started GET "/customers" for 127.0.0.1 at 2023-03-27 22:05:26 +0700
+Processing by CustomersController#index as HTML
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 810)
+
+
+  
+SyntaxError (C:/Users/ADMIN/Hoang-Thi-Lan-20070942-WareHourse-Management-System-Final-Submission/Hoang-Thi-Lan-20070942-WareHourse-Management-System-Final-Submission/app/models/customer.rb:2: syntax error, unexpected ':', expecting `end'
+    validates_presence_of : name, : phone_no, :address
+                          ^
+C:/Users/ADMIN/Hoang-Thi-Lan-20070942-WareHourse-Management-System-Final-Submission/Hoang-Thi-Lan-20070942-WareHourse-Management-System-Final-Submission/app/models/customer.rb:2: syntax error, unexpected '\n', expecting '.' or &. or :: or '['
+...of : name, : phone_no, :address
+...                               ^
+):
+  
+app/models/customer.rb:2: syntax error, unexpected ':', expecting `end'
+app/models/customer.rb:2: syntax error, unexpected '\n', expecting '.' or &. or :: or '['
+app/models/customer.rb:2: syntax error, unexpected ':', expecting `end'
+app/models/customer.rb:2: syntax error, unexpected '\n', expecting '.' or &. or :: or '['
+app/models/customer.rb:2: syntax error, unexpected ':', expecting `end'
+app/models/customer.rb:2: syntax error, unexpected '\n', expecting '.' or &. or :: or '['
+app/controllers/customers_controller.rb:6:in `index'
+Started GET "/customers" for 127.0.0.1 at 2023-03-27 22:06:34 +0700
+Processing by CustomersController#index as HTML
+Completed 500 Internal Server Error in 12ms (Allocations: 1437)
+
+
+  
+SyntaxError (C:/Users/ADMIN/Hoang-Thi-Lan-20070942-WareHourse-Management-System-Final-Submission/Hoang-Thi-Lan-20070942-WareHourse-Management-System-Final-Submission/app/models/customer.rb:3: syntax error, unexpected ':', expecting `end'
+    validates_uniqueness_of : phone_no
+                            ^
+):
+  
+app/models/customer.rb:3: syntax error, unexpected ':', expecting `end'
+app/models/customer.rb:3: syntax error, unexpected ':', expecting `end'
+app/models/customer.rb:3: syntax error, unexpected ':', expecting `end'
+app/controllers/customers_controller.rb:6:in `index'
+Started GET "/customers" for 127.0.0.1 at 2023-03-27 22:07:01 +0700
+Processing by CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (1.7ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/customers/index.html.erb:26
+  Rendered customers/index.html.erb within layouts/application (Duration: 44.5ms | Allocations: 1327)
+  Rendered shared/_head.html.erb (Duration: 13.3ms | Allocations: 2023)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 29)
+  Rendered shared/_navbar.html.erb (Duration: 1.1ms | Allocations: 339)
+  Rendered layout layouts/application.html.erb (Duration: 62.8ms | Allocations: 3991)
+Completed 200 OK in 107ms (Views: 75.9ms | ActiveRecord: 2.9ms | Allocations: 5955)
+
+
+Started GET "/customers/new" for 127.0.0.1 at 2023-03-27 22:07:07 +0700
+Processing by CustomersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customers/new.html.erb within layouts/application
+  Rendered customers/_form.html.erb (Duration: 105.8ms | Allocations: 1989)
+  Rendered customers/new.html.erb within layouts/application (Duration: 128.7ms | Allocations: 2207)
+  Rendered shared/_head.html.erb (Duration: 13.1ms | Allocations: 1601)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 1.8ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 149.9ms | Allocations: 4362)
+Completed 200 OK in 162ms (Views: 152.7ms | ActiveRecord: 1.9ms | Allocations: 6530)
+
+
+Started POST "/customers" for 127.0.0.1 at 2023-03-27 22:07:09 +0700
+Processing by CustomersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "customer"=>{"name"=>"", "phone_no"=>"", "address"=>""}, "commit"=>"Create Customer"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/customers_controller.rb:27:in `block in create'
+  [1m[36mCustomer Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "customers" WHERE "customers"."phone_no" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/customers_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/customers_controller.rb:27:in `block in create'
+  Rendering layout layouts/application.html.erb
+  Rendering customers/new.html.erb within layouts/application
+  Rendered customers/_form.html.erb (Duration: 24.5ms | Allocations: 4258)
+  Rendered customers/new.html.erb within layouts/application (Duration: 25.2ms | Allocations: 4324)
+  Rendered shared/_head.html.erb (Duration: 17.1ms | Allocations: 1702)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 26)
+  Rendered shared/_navbar.html.erb (Duration: 1.1ms | Allocations: 302)
+  Rendered layout layouts/application.html.erb (Duration: 46.3ms | Allocations: 6614)
+Completed 422 Unprocessable Entity in 72ms (Views: 47.9ms | ActiveRecord: 0.6ms | Allocations: 10877)
+
+
