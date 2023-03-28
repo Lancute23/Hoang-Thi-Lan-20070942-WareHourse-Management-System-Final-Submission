@@ -372,3 +372,31 @@ Processing by CustomersController#create as TURBO_STREAM
 Completed 422 Unprocessable Entity in 72ms (Views: 47.9ms | ActiveRecord: 0.6ms | Allocations: 10877)
 
 
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2023-03-28 20:36:35 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 144.6ms | Allocations: 2277)
+Started GET "/" for 127.0.0.1 at 2023-03-28 20:36:36 +0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 658)
+  Rendered shared/_head.html.erb (Duration: 639.8ms | Allocations: 39435)
+  Rendered shared/_head.html.erb (Duration: 575.0ms | Allocations: 36394)
+  Rendered shared/_flash_notice.html.erb (Duration: 10.3ms | Allocations: 354)
+  Rendered shared/_flash_notice.html.erb (Duration: 9.6ms | Allocations: 224)
+  Rendered shared/_navbar.html.erb (Duration: 67.3ms | Allocations: 963)
+  Rendered layout layouts/application.html.erb (Duration: 892.8ms | Allocations: 44467)
+Completed 200 OK in 1114ms (Views: 946.7ms | ActiveRecord: 0.0ms | Allocations: 48386)
+
+
+  Rendered shared/_navbar.html.erb (Duration: 68.4ms | Allocations: 1256)
+  Rendered layout layouts/application.html.erb (Duration: 680.3ms | Allocations: 39565)
+Completed 200 OK in 682ms (Views: 681.3ms | ActiveRecord: 0.0ms | Allocations: 39872)
+
+
