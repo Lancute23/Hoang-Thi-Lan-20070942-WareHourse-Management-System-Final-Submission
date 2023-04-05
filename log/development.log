@@ -1613,3 +1613,108 @@ Processing by CustomersController#index as HTML
 Completed 200 OK in 1643ms (Views: 1453.0ms | ActiveRecord: 5.7ms | Allocations: 65450)
 
 
+Started GET "/customers/new" for 127.0.0.1 at 2023-04-05 11:13:55 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/customers/new" for 127.0.0.1 at 2023-04-05 11:13:55 +0700
+Processing by CustomersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customers/new.html.erb within layouts/application
+Processing by CustomersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customers/new.html.erb within layouts/application
+  Rendered customers/_form.html.erb (Duration: 123.8ms | Allocations: 5436)
+  Rendered customers/new.html.erb within layouts/application (Duration: 128.5ms | Allocations: 6386)
+  Rendered customers/_form.html.erb (Duration: 187.2ms | Allocations: 8036)
+  Rendered customers/new.html.erb within layouts/application (Duration: 205.9ms | Allocations: 8608)
+  Rendered shared/_head.html.erb (Duration: 994.3ms | Allocations: 96330)
+  Rendered shared/_head.html.erb (Duration: 1002.6ms | Allocations: 96679)
+  Rendered shared/_flash_notice.html.erb (Duration: 23.2ms | Allocations: 474)
+  Rendered shared/_flash_notice.html.erb (Duration: 1.9ms | Allocations: 229)
+  Rendered shared/_navbar.html.erb (Duration: 16.3ms | Allocations: 1580)
+  Rendered layout layouts/application.html.erb (Duration: 1209.5ms | Allocations: 106320)
+Completed 200 OK in 1213ms (Views: 1212.1ms | ActiveRecord: 0.0ms | Allocations: 106745)
+
+
+  Rendered shared/_navbar.html.erb (Duration: 19.6ms | Allocations: 1055)
+  Rendered layout layouts/application.html.erb (Duration: 1309.3ms | Allocations: 110133)
+Completed 200 OK in 1521ms (Views: 1362.1ms | ActiveRecord: 3.1ms | Allocations: 119154)
+
+
+Started GET "/admin" for ::1 at 2023-04-05 11:14:38 +0700
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[36mActiveStorage::Attachment Count (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_storage_attachments"[0m
+  [1m[36mActiveStorage::Attachment Load (1.5ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" ORDER BY "active_storage_attachments"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mActiveStorage::Blob Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_storage_blobs"[0m
+  [1m[36mActiveStorage::Blob Load (0.2ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" ORDER BY "active_storage_blobs"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mCustomer Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "customers"[0m
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers" ORDER BY "customers"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mActionText::EncryptedRichText Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "action_text_rich_texts"[0m
+  [1m[36mActionText::EncryptedRichText Load (0.2ms)[0m  [1m[34mSELECT "action_text_rich_texts".* FROM "action_text_rich_texts" ORDER BY "action_text_rich_texts"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mManager Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "managers"[0m
+  [1m[36mManager Load (0.1ms)[0m  [1m[34mSELECT "managers".* FROM "managers" ORDER BY "managers"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mCACHE ActionText::RichText Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "action_text_rich_texts"[0m
+  [1m[36mCACHE ActionText::RichText Load (0.0ms)[0m  [1m[34mSELECT "action_text_rich_texts".* FROM "action_text_rich_texts" ORDER BY "action_text_rich_texts"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mActiveStorage::VariantRecord Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_storage_variant_records"[0m
+  Rendering layout C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/application.html.erb
+  Rendering C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/rails_admin/main/dashboard.html.erb within layouts/rails_admin/application
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/rails_admin/main/dashboard.html.erb within layouts/rails_admin/application (Duration: 20.5ms | Allocations: 15774)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/_head.html.erb (Duration: 63.6ms | Allocations: 23270)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/_secondary_navigation.html.erb (Duration: 27.5ms | Allocations: 751)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/_navigation.html.erb (Duration: 64.3ms | Allocations: 1180)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/_sidebar_navigation.html.erb (Duration: 12.1ms | Allocations: 4058)
+  Rendering C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/content.html.erb
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/content.html.erb (Duration: 19.2ms | Allocations: 935)
+  Rendered layout C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/application.html.erb (Duration: 198.4ms | Allocations: 46466)
+Completed 200 OK in 694ms (Views: 209.9ms | ActiveRecord: 22.7ms | Allocations: 135641)
+
+
+Started GET "/admin" for ::1 at 2023-04-05 11:14:52 +0700
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[36mActiveStorage::Attachment Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_storage_attachments"[0m
+  [1m[36mActiveStorage::Attachment Load (0.3ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" ORDER BY "active_storage_attachments"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mActiveStorage::Blob Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_storage_blobs"[0m
+  [1m[36mActiveStorage::Blob Load (0.5ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" ORDER BY "active_storage_blobs"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mCustomer Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "customers"[0m
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers" ORDER BY "customers"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mActionText::EncryptedRichText Count (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "action_text_rich_texts"[0m
+  [1m[36mActionText::EncryptedRichText Load (0.4ms)[0m  [1m[34mSELECT "action_text_rich_texts".* FROM "action_text_rich_texts" ORDER BY "action_text_rich_texts"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mManager Count (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "managers"[0m
+  [1m[36mManager Load (0.3ms)[0m  [1m[34mSELECT "managers".* FROM "managers" ORDER BY "managers"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mCACHE ActionText::RichText Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "action_text_rich_texts"[0m
+  [1m[36mCACHE ActionText::RichText Load (0.0ms)[0m  [1m[34mSELECT "action_text_rich_texts".* FROM "action_text_rich_texts" ORDER BY "action_text_rich_texts"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mActiveStorage::VariantRecord Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_storage_variant_records"[0m
+  Rendering layout C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/application.html.erb
+  Rendering C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/rails_admin/main/dashboard.html.erb within layouts/rails_admin/application
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/rails_admin/main/dashboard.html.erb within layouts/rails_admin/application (Duration: 27.9ms | Allocations: 13835)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/_head.html.erb (Duration: 171.0ms | Allocations: 22735)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/_secondary_navigation.html.erb (Duration: 1.1ms | Allocations: 302)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/_navigation.html.erb (Duration: 2.2ms | Allocations: 452)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/_sidebar_navigation.html.erb (Duration: 4.6ms | Allocations: 3665)
+  Rendering C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/content.html.erb
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/content.html.erb (Duration: 1.3ms | Allocations: 585)
+  Rendered layout C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/application.html.erb (Duration: 211.3ms | Allocations: 41830)
+Completed 200 OK in 276ms (Views: 212.9ms | ActiveRecord: 6.3ms | Allocations: 59219)
+
+
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2023-04-05 11:23:46 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/customers/index.html.erb:26
+  Rendered customers/index.html.erb within layouts/application (Duration: 19.6ms | Allocations: 6117)
+  Rendered shared/_head.html.erb (Duration: 448.2ms | Allocations: 56036)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.9ms | Allocations: 184)
+  Rendered shared/_navbar.html.erb (Duration: 10.2ms | Allocations: 1580)
+  Rendered layout layouts/application.html.erb (Duration: 492.8ms | Allocations: 64640)
+Completed 200 OK in 556ms (Views: 516.7ms | ActiveRecord: 1.9ms | Allocations: 69233)
+
+
