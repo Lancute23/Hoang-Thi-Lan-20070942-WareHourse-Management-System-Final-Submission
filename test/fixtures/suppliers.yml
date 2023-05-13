@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  sup_ID: MyString
+  product_name: MyString
+  address: MyString
+  email: MyText
+  pay_method: MyString
+  discount: MyString
+
+two:
+  sup_ID: MyString
+  product_name: MyString
+  address: MyString
+  email: MyText
+  pay_method: MyString
+  discount: MyString
