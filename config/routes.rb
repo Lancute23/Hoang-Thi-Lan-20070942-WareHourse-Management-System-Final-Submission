@@ -8,7 +8,6 @@ Rails.application.routes.draw do
   resources :employees
   resources :payments
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
-  resources :managers
     authenticate :user, lambda { |u| u.admin? } do
       mount Sidekiq::Web => '/sidekiq'
     end
