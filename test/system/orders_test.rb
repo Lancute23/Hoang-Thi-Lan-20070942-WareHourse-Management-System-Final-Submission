@@ -16,10 +16,9 @@ class OrdersTest < ApplicationSystemTestCase
 
     fill_in "Bill no", with: @order.bill_no
     fill_in "Customer code", with: @order.customer_code
-    fill_in "Customner", with: @order.customner_id
+    fill_in "Customer", with: @order.customer_id
     fill_in "Date", with: @order.date
     fill_in "Discount", with: @order.discount
-    fill_in "Integer", with: @order.integer
     fill_in "Order code", with: @order.order_code
     fill_in "Price", with: @order.price
     fill_in "Product name", with: @order.product_name
@@ -36,10 +35,9 @@ class OrdersTest < ApplicationSystemTestCase
 
     fill_in "Bill no", with: @order.bill_no
     fill_in "Customer code", with: @order.customer_code
-    fill_in "Customner", with: @order.customner_id
+    fill_in "Customer", with: @order.customer_id
     fill_in "Date", with: @order.date
     fill_in "Discount", with: @order.discount
-    fill_in "Integer", with: @order.integer
     fill_in "Order code", with: @order.order_code
     fill_in "Price", with: @order.price
     fill_in "Product name", with: @order.product_name

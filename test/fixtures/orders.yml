@@ -1,25 +1,23 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  order_code: MyString
-  integer: MyString
+  order_code: 1
   bill_no: 1
   product_name: MyString
   quantity: 1
   price: MyString
   discount: MyString
-  date: 2023-05-14 10:32:08
-  customer_code: 1
-  customner: one
+  date: 2023-05-14 11:24:57
+  customer_code: MyString
+  customer: one
 
 two:
-  order_code: MyString
-  integer: MyString
+  order_code: 1
   bill_no: 1
   product_name: MyString
   quantity: 1
   price: MyString
   discount: MyString
-  date: 2023-05-14 10:32:08
-  customer_code: 1
-  customner: two
+  date: 2023-05-14 11:24:57
+  customer_code: MyString
+  customer: two

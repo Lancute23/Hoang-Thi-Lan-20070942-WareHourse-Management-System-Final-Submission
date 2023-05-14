@@ -17,7 +17,7 @@ class CustomersControllerTest < ActionDispatch::IntegrationTest
 
   test "should create customer" do
     assert_difference("Customer.count") do
-      post customers_url, params: { customer: { address: @customer.address, cus_ID: @customer.cus_ID, name: @customer.name, phone_number: @customer.phone_number } }
+      post customers_url, params: { customer: { address: @customer.address, code: @customer.code, name: @customer.name, phone: @customer.phone } }
     end
 
     assert_redirected_to customer_url(Customer.last)
@@ -34,7 +34,7 @@ class CustomersControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update customer" do
-    patch customer_url(@customer), params: { customer: { address: @customer.address, cus_ID: @customer.cus_ID, name: @customer.name, phone_number: @customer.phone_number } }
+    patch customer_url(@customer), params: { customer: { address: @customer.address, code: @customer.code, name: @customer.name, phone: @customer.phone } }
     assert_redirected_to customer_url(@customer)
   end
 

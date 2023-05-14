@@ -13,11 +13,7 @@
 
   <div class="mb-6">
         <%= form.label :order_code, class: label_class %>
-          <%= form.text_field :order_code, class: input_class %>
-      </div>
-  <div class="mb-6">
-        <%= form.label :integer, class: label_class %>
-          <%= form.text_field :integer, class: input_class %>
+          <%= form.number_field :order_code, class: input_class %>
       </div>
   <div class="mb-6">
         <%= form.label :bill_no, class: label_class %>
@@ -45,11 +41,11 @@
       </div>
   <div class="mb-6">
         <%= form.label :customer_code, class: label_class %>
-          <%= form.number_field :customer_code, class: input_class %>
+          <%= form.text_field :customer_code, class: input_class %>
       </div>
   <div class="mb-6">
-        <%= form.label :customner_id, class: label_class %>
-          <%= form.text_field :customner_id, class: input_class %>
+        <%= form.label :customer_id, class: label_class %>
+          <%= form.text_field :customer_id, class: input_class %>
       </div>
 
 <%= form.submit class: button_class(theme: 'primary') %>

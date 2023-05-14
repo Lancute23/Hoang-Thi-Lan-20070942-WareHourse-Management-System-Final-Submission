@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_05_14_034904) do
+ActiveRecord::Schema[7.0].define(version: 2023_05_14_042457) do
   create_table "action_text_rich_texts", force: :cascade do |t|
     t.string "name", null: false
     t.text "body"
@@ -50,10 +50,10 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_14_034904) do
   end
 
   create_table "customers", force: :cascade do |t|
-    t.string "cus_ID"
+    t.string "code"
     t.string "name"
     t.string "address"
-    t.integer "phone_number"
+    t.integer "phone"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -87,19 +87,18 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_14_034904) do
   end
 
   create_table "orders", force: :cascade do |t|
-    t.string "order_code"
-    t.string "integer"
+    t.integer "order_code"
     t.integer "bill_no"
     t.string "product_name"
     t.integer "quantity"
     t.string "price"
     t.string "discount"
     t.datetime "date"
-    t.integer "customer_code"
-    t.integer "customner_id", null: false
+    t.string "customer_code"
+    t.integer "customer_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["customner_id"], name: "index_orders_on_customner_id"
+    t.index ["customer_id"], name: "index_orders_on_customer_id"
   end
 
   create_table "payments", force: :cascade do |t|
@@ -154,7 +153,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_14_034904) do
 
   add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"
   add_foreign_key "active_storage_variant_records", "active_storage_blobs", column: "blob_id"
-  add_foreign_key "orders", "customners"
+  add_foreign_key "orders", "customers"
   add_foreign_key "payments", "customers"
   add_foreign_key "products", "suppliers"
 end
