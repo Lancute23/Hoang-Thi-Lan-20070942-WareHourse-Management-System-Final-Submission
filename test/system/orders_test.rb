@@ -14,9 +14,16 @@ class OrdersTest < ApplicationSystemTestCase
     visit orders_url
     click_on "New order"
 
-    fill_in "Employee id", with: @order.employee_ID
-    fill_in "Order id", with: @order.order_ID
-    fill_in "Order date", with: @order.order_date
+    fill_in "Bill no", with: @order.bill_no
+    fill_in "Customer code", with: @order.customer_code
+    fill_in "Customner", with: @order.customner_id
+    fill_in "Date", with: @order.date
+    fill_in "Discount", with: @order.discount
+    fill_in "Integer", with: @order.integer
+    fill_in "Order code", with: @order.order_code
+    fill_in "Price", with: @order.price
+    fill_in "Product name", with: @order.product_name
+    fill_in "Quantity", with: @order.quantity
     click_on "Create Order"
 
     assert_text "Order was successfully created"
@@ -27,9 +34,16 @@ class OrdersTest < ApplicationSystemTestCase
     visit order_url(@order)
     click_on "Edit this order", match: :first
 
-    fill_in "Employee id", with: @order.employee_ID
-    fill_in "Order id", with: @order.order_ID
-    fill_in "Order date", with: @order.order_date
+    fill_in "Bill no", with: @order.bill_no
+    fill_in "Customer code", with: @order.customer_code
+    fill_in "Customner", with: @order.customner_id
+    fill_in "Date", with: @order.date
+    fill_in "Discount", with: @order.discount
+    fill_in "Integer", with: @order.integer
+    fill_in "Order code", with: @order.order_code
+    fill_in "Price", with: @order.price
+    fill_in "Product name", with: @order.product_name
+    fill_in "Quantity", with: @order.quantity
     click_on "Update Order"
 
     assert_text "Order was successfully updated"

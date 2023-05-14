@@ -1,7 +1,8 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  sup_ID: MyString
+  sup_code: MyString
+  supplier_name: MyString
   product_name: MyString
   address: MyString
   email: MyText
@@ -9,7 +10,8 @@ one:
   discount: MyString
 
 two:
-  sup_ID: MyString
+  sup_code: MyString
+  supplier_name: MyString
   product_name: MyString
   address: MyString
   email: MyText

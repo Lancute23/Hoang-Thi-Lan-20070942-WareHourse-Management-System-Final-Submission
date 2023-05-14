@@ -15,8 +15,9 @@ class CustomersTest < ApplicationSystemTestCase
     click_on "New customer"
 
     fill_in "Address", with: @customer.address
+    fill_in "Cus id", with: @customer.cus_ID
     fill_in "Name", with: @customer.name
-    fill_in "Phone no", with: @customer.phone_no
+    fill_in "Phone number", with: @customer.phone_number
     click_on "Create Customer"
 
     assert_text "Customer was successfully created"
@@ -28,8 +29,9 @@ class CustomersTest < ApplicationSystemTestCase
     click_on "Edit this customer", match: :first
 
     fill_in "Address", with: @customer.address
+    fill_in "Cus id", with: @customer.cus_ID
     fill_in "Name", with: @customer.name
-    fill_in "Phone no", with: @customer.phone_no
+    fill_in "Phone number", with: @customer.phone_number
     click_on "Update Customer"
 
     assert_text "Customer was successfully updated"

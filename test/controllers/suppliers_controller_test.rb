@@ -17,7 +17,7 @@ class SuppliersControllerTest < ActionDispatch::IntegrationTest
 
   test "should create supplier" do
     assert_difference("Supplier.count") do
-      post suppliers_url, params: { supplier: { address: @supplier.address, discount: @supplier.discount, email: @supplier.email, pay_method: @supplier.pay_method, product_name: @supplier.product_name, sup_ID: @supplier.sup_ID } }
+      post suppliers_url, params: { supplier: { address: @supplier.address, discount: @supplier.discount, email: @supplier.email, pay_method: @supplier.pay_method, product_name: @supplier.product_name, sup_code: @supplier.sup_code, supplier_name: @supplier.supplier_name } }
     end
 
     assert_redirected_to supplier_url(Supplier.last)
@@ -34,7 +34,7 @@ class SuppliersControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update supplier" do
-    patch supplier_url(@supplier), params: { supplier: { address: @supplier.address, discount: @supplier.discount, email: @supplier.email, pay_method: @supplier.pay_method, product_name: @supplier.product_name, sup_ID: @supplier.sup_ID } }
+    patch supplier_url(@supplier), params: { supplier: { address: @supplier.address, discount: @supplier.discount, email: @supplier.email, pay_method: @supplier.pay_method, product_name: @supplier.product_name, sup_code: @supplier.sup_code, supplier_name: @supplier.supplier_name } }
     assert_redirected_to supplier_url(@supplier)
   end
 

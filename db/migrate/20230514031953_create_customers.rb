@@ -1,9 +1,10 @@
 class CreateCustomers < ActiveRecord::Migration[7.0]
   def change
     create_table :customers do |t|
+      t.string :cus_ID
       t.string :name
-      t.integer :phone_no
       t.string :address
+      t.integer :phone_number
 
       t.timestamps
     end

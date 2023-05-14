@@ -12,16 +12,44 @@
 <% end %>
 
   <div class="mb-6">
-        <%= form.label :order_ID, class: label_class %>
-          <%= form.number_field :order_ID, class: input_class %>
+        <%= form.label :order_code, class: label_class %>
+          <%= form.text_field :order_code, class: input_class %>
       </div>
   <div class="mb-6">
-        <%= form.label :employee_ID, class: label_class %>
-          <%= form.number_field :employee_ID, class: input_class %>
+        <%= form.label :integer, class: label_class %>
+          <%= form.text_field :integer, class: input_class %>
       </div>
   <div class="mb-6">
-        <%= form.label :order_date, class: label_class %>
-          <%= form.datetime_field :order_date, class: input_class %>
+        <%= form.label :bill_no, class: label_class %>
+          <%= form.number_field :bill_no, class: input_class %>
+      </div>
+  <div class="mb-6">
+        <%= form.label :product_name, class: label_class %>
+          <%= form.text_field :product_name, class: input_class %>
+      </div>
+  <div class="mb-6">
+        <%= form.label :quantity, class: label_class %>
+          <%= form.number_field :quantity, class: input_class %>
+      </div>
+  <div class="mb-6">
+        <%= form.label :price, class: label_class %>
+          <%= form.text_field :price, class: input_class %>
+      </div>
+  <div class="mb-6">
+        <%= form.label :discount, class: label_class %>
+          <%= form.text_field :discount, class: input_class %>
+      </div>
+  <div class="mb-6">
+        <%= form.label :date, class: label_class %>
+          <%= form.datetime_field :date, class: input_class %>
+      </div>
+  <div class="mb-6">
+        <%= form.label :customer_code, class: label_class %>
+          <%= form.number_field :customer_code, class: input_class %>
+      </div>
+  <div class="mb-6">
+        <%= form.label :customner_id, class: label_class %>
+          <%= form.text_field :customner_id, class: input_class %>
       </div>
 
 <%= form.submit class: button_class(theme: 'primary') %>

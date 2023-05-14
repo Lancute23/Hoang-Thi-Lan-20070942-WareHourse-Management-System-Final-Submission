@@ -12,12 +12,16 @@
 <% end %>
 
   <div class="mb-6">
-        <%= form.label :product_id, class: label_class %>
-          <%= form.text_field :product_id, class: input_class %>
+        <%= form.label :code, class: label_class %>
+          <%= form.number_field :code, class: input_class %>
       </div>
   <div class="mb-6">
-        <%= form.label :product_describle, class: label_class %>
-          <%= form.text_area :product_describle, class: input_class %>
+        <%= form.label :product_name, class: label_class %>
+          <%= form.text_field :product_name, class: input_class %>
+      </div>
+  <div class="mb-6">
+        <%= form.label :describle, class: label_class %>
+          <%= form.text_area :describle, class: input_class %>
       </div>
   <div class="mb-6">
         <%= form.label :price, class: label_class %>
