@@ -14,30 +14,31 @@
   </div>
   <div class="items-center w-full text-center lg:flex-1 lg:flex lg:text-left pt-2 lg:pt-0 hidden" data-nav-target="menu">
     <div class="lg:flex-grow">
-      <%= link_to "Basic Link", "#", class: "p-3 hover:bg-gray-50 transition ease duration-300 rounded-lg text-center focus:bg-gray-100 lg:inline-block block" %>
+      <%= link_to "Basic Link", "#", class: "p-3 hover:bg-black-50 transition ease duration-300 rounded-lg text-center focus:bg-gray-100 lg:inline-block block" %>
     </div>
-    <div class="items-center block w-full mt-2 text-center lg:flex lg:flex-row lg:flex-1 lg:mt-0 lg:text-left lg:justify-end">
-      <div><%# More links can go here %>
-       <%= link_to "Employees", "/employees", class: "p-3 hover:bg-gray-50 transition ease duration-300
+    <div class="items-center block w-full mt-2 text-center lg:flex lg:flex-row lg:flex-wrap lg:flex-1 lg:mt-0 lg:text-left lg:justify-end">
+     
+        
+      <%# More links can go here %>
+       <%= link_to "Employees", "/employees", class: "p-2 hover:bg-black-50 transition ease duration-300
 rounded-lg text-center focus:bg-gray-100 lg:inline-block block"  %>
 
-      <%= link_to "Customers", "/customers", class: "p-3 hover:bg-gray-50 transition ease duration-300
+      <%= link_to "Customers", "/customers", class: "p-2 hover:bg-gray-50 transition ease duration-300
 rounded-lg text-center focus:bg-gray-100 lg:inline-block block" %>
       
-      <%= link_to "Orders", "/orders", class: "p-3 hover:bg-gray-50 transition ease duration-300
+      <%= link_to "Orders", "/orders", class: "p-2 hover:bg-gray-50 transition ease duration-300
 rounded-lg text-center focus:bg-gray-100 lg:inline-block block"  %>
 
-      <%= link_to "Payments", "/payments", class: "p-3 hover:bg-gray-50 transition ease duration-300
+      <%= link_to "Payments", "/payments", class: "p-2 hover:bg-gray-50 transition ease duration-300
 rounded-lg text-center focus:bg-gray-100 lg:inline-block block"  %>
       
-      <%= link_to "Products", "/products", class: "p-3 hover:bg-gray-50 transition ease duration-300
+      <%= link_to "Products", "/products", class: "p-2 hover:bg-gray-50 transition ease duration-300
 rounded-lg text-center focus:bg-gray-100 lg:inline-block block"  %>
 
-      <%= link_to "Suppliers", "/suppliers", class: "p-3 hover:bg-gray-50 transition ease duration-300
+      <%= link_to "Suppliers", "/suppliers", class: "p-2 hover:bg-gray-50 transition ease duration-300
 rounded-lg text-center focus:bg-gray-100 lg:inline-block block"  %>
-     
 
-</div>
+    </div>
           <% if user_signed_in? %>
         <%= link_to "Edit account", edit_user_registration_path, class: "p-3 hover:bg-gray-50 transition ease duration-300 rounded-lg text-center focus:bg-gray-100 lg:inline-block block" %>
         <%= button_to "Log out", destroy_user_session_path, method: :delete, class:"p-3 hover:bg-gray-50 transition ease duration-300 rounded-lg text-center focus:bg-gray-100 lg:inline-block block" %>
