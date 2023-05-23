@@ -15509,3 +15509,2679 @@ Processing by ProductsController#index as HTML
 Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 1.0ms | Allocations: 4176)
 
 
+Started GET "/employees" for 127.0.0.1 at 2023-05-16 22:04:16 +0700
+Processing by EmployeesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (0.7ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/views/employees/index.html.erb:27
+  Rendered employees/index.html.erb within layouts/application (Duration: 30.2ms | Allocations: 1172)
+  Rendered shared/_head.html.erb (Duration: 6.2ms | Allocations: 2046)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 29)
+  Rendered shared/_navbar.html.erb (Duration: 3.5ms | Allocations: 1084)
+  Rendered layout layouts/application.html.erb (Duration: 42.2ms | Allocations: 4608)
+Completed 200 OK in 69ms (Views: 48.3ms | ActiveRecord: 0.7ms | Allocations: 6033)
+
+
+Started GET "/customers" for 127.0.0.1 at 2023-05-16 22:04:18 +0700
+Processing by CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/customers/index.html.erb:27
+  Rendered customers/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 635)
+  Rendered shared/_head.html.erb (Duration: 5.2ms | Allocations: 1790)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.1ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 3729)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.3ms | Allocations: 4034)
+
+
+Started GET "/orders" for 127.0.0.1 at 2023-05-16 22:04:19 +0700
+Processing by OrdersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.8ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/orders/index.html.erb:33
+  Rendered orders/index.html.erb within layouts/application (Duration: 28.8ms | Allocations: 1282)
+  Rendered shared/_head.html.erb (Duration: 4.7ms | Allocations: 2066)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 29)
+  Rendered shared/_navbar.html.erb (Duration: 3.3ms | Allocations: 1088)
+  Rendered layout layouts/application.html.erb (Duration: 38.9ms | Allocations: 4742)
+Completed 200 OK in 65ms (Views: 44.2ms | ActiveRecord: 0.8ms | Allocations: 6395)
+
+
+Started GET "/payments" for 127.0.0.1 at 2023-05-16 22:04:22 +0700
+Processing by PaymentsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering payments/index.html.erb within layouts/application
+  [1m[36mPayment Load (0.7ms)[0m  [1m[34mSELECT "payments".* FROM "payments"[0m
+  ↳ app/views/payments/index.html.erb:29
+  Rendered payments/index.html.erb within layouts/application (Duration: 28.5ms | Allocations: 1207)
+  Rendered shared/_head.html.erb (Duration: 5.0ms | Allocations: 2050)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 29)
+  Rendered shared/_navbar.html.erb (Duration: 3.2ms | Allocations: 1085)
+  Rendered layout layouts/application.html.erb (Duration: 38.9ms | Allocations: 4648)
+Completed 200 OK in 67ms (Views: 45.1ms | ActiveRecord: 0.7ms | Allocations: 6257)
+
+
+Started GET "/suppliers" for 127.0.0.1 at 2023-05-16 22:04:24 +0700
+Processing by SuppliersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/index.html.erb within layouts/application
+  [1m[36mSupplier Load (0.4ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers"[0m
+  ↳ app/views/suppliers/index.html.erb:31
+  Rendered suppliers/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 647)
+  Rendered shared/_head.html.erb (Duration: 5.0ms | Allocations: 1784)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.2ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 3735)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.4ms | Allocations: 4040)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2023-05-16 22:04:28 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 69.8ms | Allocations: 714)
+  Rendered devise/_auth_layout.html.erb (Duration: 365.8ms | Allocations: 5971)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 410.0ms | Allocations: 6660)
+  Rendered shared/_head.html.erb (Duration: 6.7ms | Allocations: 1786)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 29)
+  Rendered shared/_navbar.html.erb (Duration: 3.0ms | Allocations: 1052)
+  Rendered layout layouts/application.html.erb (Duration: 423.5ms | Allocations: 9797)
+Completed 200 OK in 490ms (Views: 435.3ms | ActiveRecord: 1.9ms | Allocations: 18176)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2023-05-16 22:04:33 +0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 43.6ms | Allocations: 204)
+  Rendered devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 144)
+  Rendered devise/_auth_layout.html.erb (Duration: 47.6ms | Allocations: 2399)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 160.8ms | Allocations: 3098)
+  Rendered shared/_head.html.erb (Duration: 4.9ms | Allocations: 1785)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 29)
+  Rendered shared/_navbar.html.erb (Duration: 3.1ms | Allocations: 1050)
+  Rendered layout layouts/application.html.erb (Duration: 170.9ms | Allocations: 6232)
+Completed 200 OK in 178ms (Views: 177.4ms | ActiveRecord: 0.0ms | Allocations: 7576)
+
+
+Started GET "/employees" for 127.0.0.1 at 2023-05-16 22:09:00 +0700
+Processing by EmployeesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (0.5ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/views/employees/index.html.erb:27
+  Rendered employees/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 663)
+  Rendered shared/_head.html.erb (Duration: 5.9ms | Allocations: 1843)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.3ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 4.8ms | Allocations: 1031)
+  Rendered layout layouts/application.html.erb (Duration: 16.4ms | Allocations: 3817)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.5ms | Allocations: 4122)
+
+
+Started GET "/customers" for 127.0.0.1 at 2023-05-16 22:09:02 +0700
+Processing by CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/customers/index.html.erb:27
+  Rendered customers/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 602)
+  Rendered shared/_head.html.erb (Duration: 7.7ms | Allocations: 1805)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.9ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 16.4ms | Allocations: 3711)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.3ms | Allocations: 3995)
+
+
+Started GET "/orders" for 127.0.0.1 at 2023-05-16 22:09:03 +0700
+Processing by OrdersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.3ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/orders/index.html.erb:33
+  Rendered orders/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 602)
+  Rendered shared/_head.html.erb (Duration: 6.8ms | Allocations: 1799)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 7.0ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 3705)
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.3ms | Allocations: 3989)
+
+
+Started GET "/payments" for 127.0.0.1 at 2023-05-16 22:09:04 +0700
+Processing by PaymentsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering payments/index.html.erb within layouts/application
+  [1m[36mPayment Load (0.3ms)[0m  [1m[34mSELECT "payments".* FROM "payments"[0m
+  ↳ app/views/payments/index.html.erb:29
+  Rendered payments/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 601)
+  Rendered shared/_head.html.erb (Duration: 6.7ms | Allocations: 1802)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.4ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 4.6ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 3707)
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 0.3ms | Allocations: 3990)
+
+
+Started GET "/products" for 127.0.0.1 at 2023-05-16 22:09:05 +0700
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:30
+  Rendered products/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 602)
+  Rendered shared/_head.html.erb (Duration: 7.0ms | Allocations: 1805)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 6.1ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 17.5ms | Allocations: 3711)
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.3ms | Allocations: 3995)
+
+
+Started GET "/suppliers" for 127.0.0.1 at 2023-05-16 22:09:06 +0700
+Processing by SuppliersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/index.html.erb within layouts/application
+  [1m[36mSupplier Load (0.3ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers"[0m
+  ↳ app/views/suppliers/index.html.erb:31
+  Rendered suppliers/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 601)
+  Rendered shared/_head.html.erb (Duration: 8.8ms | Allocations: 1793)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 5.2ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 3698)
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.3ms | Allocations: 3981)
+
+
+Started GET "/employees" for 127.0.0.1 at 2023-05-16 22:09:10 +0700
+Processing by EmployeesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (0.4ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/views/employees/index.html.erb:27
+  Rendered employees/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 601)
+  Rendered shared/_head.html.erb (Duration: 6.8ms | Allocations: 1787)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.8ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 15.0ms | Allocations: 3692)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.4ms | Allocations: 3973)
+
+
+Started GET "/employees" for 127.0.0.1 at 2023-05-16 22:10:12 +0700
+Processing by EmployeesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (0.4ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/views/employees/index.html.erb:27
+  Rendered employees/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 601)
+  Rendered shared/_head.html.erb (Duration: 8.6ms | Allocations: 1796)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.7ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 3704)
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.4ms | Allocations: 3985)
+
+
+Started GET "/payments" for 127.0.0.1 at 2023-05-16 22:10:14 +0700
+Processing by PaymentsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering payments/index.html.erb within layouts/application
+  [1m[36mPayment Load (0.4ms)[0m  [1m[34mSELECT "payments".* FROM "payments"[0m
+  ↳ app/views/payments/index.html.erb:29
+  Rendered payments/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 601)
+  Rendered shared/_head.html.erb (Duration: 8.6ms | Allocations: 1802)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.4ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 3707)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.4ms | Allocations: 3988)
+
+
+Started GET "/products" for 127.0.0.1 at 2023-05-16 22:10:15 +0700
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:30
+  Rendered products/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 601)
+  Rendered shared/_head.html.erb (Duration: 6.1ms | Allocations: 1790)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.7ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 16.3ms | Allocations: 3695)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.3ms | Allocations: 3976)
+
+
+Started GET "/suppliers" for 127.0.0.1 at 2023-05-16 22:10:16 +0700
+Processing by SuppliersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/index.html.erb within layouts/application
+  [1m[36mSupplier Load (0.3ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers"[0m
+  ↳ app/views/suppliers/index.html.erb:31
+  Rendered suppliers/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 601)
+  Rendered shared/_head.html.erb (Duration: 9.0ms | Allocations: 1781)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 14.9ms | Allocations: 1025)
+  Rendered layout layouts/application.html.erb (Duration: 27.7ms | Allocations: 3687)
+Completed 200 OK in 29ms (Views: 28.4ms | ActiveRecord: 0.3ms | Allocations: 3968)
+
+
+Started GET "/employees" for 127.0.0.1 at 2023-05-16 22:10:18 +0700
+Processing by EmployeesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (0.4ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/views/employees/index.html.erb:27
+  Rendered employees/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 601)
+  Rendered shared/_head.html.erb (Duration: 6.8ms | Allocations: 1800)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 5.7ms | Allocations: 1027)
+  Rendered layout layouts/application.html.erb (Duration: 17.9ms | Allocations: 3708)
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 0.4ms | Allocations: 3989)
+
+
+Started GET "/" for 127.0.0.1 at 2023-05-17 07:11:38 +0700
+Started GET "/" for 127.0.0.1 at 2023-05-17 07:11:38 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CustomersController#index as HTML
+Processing by CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customers/index.html.erb within layouts/application
+  Rendering layout layouts/application.html.erb
+  Rendering customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.6ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/customers/index.html.erb:27
+  Rendered customers/index.html.erb within layouts/application (Duration: 39.1ms | Allocations: 1921)
+  [1m[36mCustomer Load (0.5ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/customers/index.html.erb:27
+  Rendered customers/index.html.erb within layouts/application (Duration: 30.0ms | Allocations: 2350)
+  Rendered shared/_head.html.erb (Duration: 2593.2ms | Allocations: 99629)
+  Rendered shared/_head.html.erb (Duration: 2594.2ms | Allocations: 99800)
+  Rendered shared/_flash_notice.html.erb (Duration: 1.1ms | Allocations: 202)
+  Rendered shared/_flash_notice.html.erb (Duration: 1.5ms | Allocations: 230)
+  Rendered shared/_navbar.html.erb (Duration: 23.8ms | Allocations: 2376)
+  Rendered layout layouts/application.html.erb (Duration: 2662.5ms | Allocations: 106038)
+Completed 200 OK in 3061ms (Views: 2767.5ms | ActiveRecord: 3.5ms | Allocations: 110943)
+
+
+  Rendered shared/_navbar.html.erb (Duration: 24.8ms | Allocations: 2915)
+  Rendered layout layouts/application.html.erb (Duration: 2695.9ms | Allocations: 106812)
+Completed 200 OK in 3094ms (Views: 2808.1ms | ActiveRecord: 0.6ms | Allocations: 111703)
+
+
+Started GET "/employees" for 127.0.0.1 at 2023-05-17 07:11:56 +0700
+Processing by EmployeesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (0.6ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/views/employees/index.html.erb:27
+  Rendered employees/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1181)
+  Rendered shared/_head.html.erb (Duration: 11.1ms | Allocations: 2084)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.2ms | Allocations: 29)
+  Rendered shared/_navbar.html.erb (Duration: 7.0ms | Allocations: 1084)
+  Rendered layout layouts/application.html.erb (Duration: 27.8ms | Allocations: 4656)
+Completed 200 OK in 52ms (Views: 43.1ms | ActiveRecord: 0.6ms | Allocations: 6092)
+
+
+Started GET "/orders" for 127.0.0.1 at 2023-05-17 07:11:58 +0700
+Processing by OrdersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.7ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/orders/index.html.erb:33
+  Rendered orders/index.html.erb within layouts/application (Duration: 6.9ms | Allocations: 1294)
+  Rendered shared/_head.html.erb (Duration: 11.1ms | Allocations: 2034)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.2ms | Allocations: 29)
+  Rendered shared/_navbar.html.erb (Duration: 6.9ms | Allocations: 1084)
+  Rendered layout layouts/application.html.erb (Duration: 29.3ms | Allocations: 4719)
+Completed 200 OK in 65ms (Views: 45.0ms | ActiveRecord: 0.7ms | Allocations: 7112)
+
+
+Started GET "/payments" for 127.0.0.1 at 2023-05-17 07:11:59 +0700
+Processing by PaymentsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering payments/index.html.erb within layouts/application
+  [1m[36mPayment Load (0.7ms)[0m  [1m[34mSELECT "payments".* FROM "payments"[0m
+  ↳ app/views/payments/index.html.erb:29
+  Rendered payments/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 1215)
+  Rendered shared/_head.html.erb (Duration: 11.3ms | Allocations: 2043)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 29)
+  Rendered shared/_navbar.html.erb (Duration: 7.2ms | Allocations: 1084)
+  Rendered layout layouts/application.html.erb (Duration: 28.8ms | Allocations: 4649)
+Completed 200 OK in 55ms (Views: 45.2ms | ActiveRecord: 0.7ms | Allocations: 6269)
+
+
+Started GET "/products" for 127.0.0.1 at 2023-05-17 07:12:01 +0700
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:30
+  Rendered products/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1226)
+  Rendered shared/_head.html.erb (Duration: 10.9ms | Allocations: 2039)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.2ms | Allocations: 29)
+  Rendered shared/_navbar.html.erb (Duration: 7.5ms | Allocations: 1085)
+  Rendered layout layouts/application.html.erb (Duration: 28.4ms | Allocations: 4656)
+Completed 200 OK in 66ms (Views: 44.4ms | ActiveRecord: 0.5ms | Allocations: 6803)
+
+
+Processing by SuppliersController#index as HTML
+Started GET "/employees" for 127.0.0.1 at 2023-05-17 07:12:34 +0700
+Processing by EmployeesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (0.4ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/views/employees/index.html.erb:27
+  Rendered employees/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 608)
+  Rendered shared/_head.html.erb (Duration: 11.4ms | Allocations: 1785)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 5.6ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 22.2ms | Allocations: 3697)
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.4ms | Allocations: 4002)
+
+
+Started GET "/customers" for 127.0.0.1 at 2023-05-17 07:12:39 +0700
+Processing by CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.5ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/customers/index.html.erb:27
+  Rendered customers/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 602)
+  Rendered shared/_head.html.erb (Duration: 21.8ms | Allocations: 1794)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.2ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 15.0ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 53.9ms | Allocations: 3700)
+Completed 200 OK in 57ms (Views: 55.4ms | ActiveRecord: 0.5ms | Allocations: 3984)
+
+
+Started GET "/orders" for 127.0.0.1 at 2023-05-17 07:12:42 +0700
+Processing by OrdersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.5ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/orders/index.html.erb:33
+  Rendered orders/index.html.erb within layouts/application (Duration: 9.2ms | Allocations: 602)
+  Rendered shared/_head.html.erb (Duration: 31.2ms | Allocations: 1784)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 35.4ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 84.9ms | Allocations: 3690)
+Completed 200 OK in 88ms (Views: 86.6ms | ActiveRecord: 0.5ms | Allocations: 3977)
+
+
+Started GET "/" for 127.0.0.1 at 2023-05-19 21:21:25 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/customers/index.html.erb:27
+  Rendered customers/index.html.erb within layouts/application (Duration: 41.5ms | Allocations: 1512)
+  Rendered shared/_head.html.erb (Duration: 1355.1ms | Allocations: 53056)
+  Rendered shared/_flash_notice.html.erb (Duration: 20.8ms | Allocations: 182)
+  Rendered shared/_navbar.html.erb (Duration: 141.2ms | Allocations: 1851)
+  Rendered layout layouts/application.html.erb (Duration: 1590.3ms | Allocations: 57294)
+Completed 200 OK in 1803ms (Views: 1651.2ms | ActiveRecord: 0.3ms | Allocations: 61940)
+
+
+Started GET "/" for 127.0.0.1 at 2023-05-21 15:10:08 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.6ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/customers/index.html.erb:27
+  Rendered customers/index.html.erb within layouts/application (Duration: 10.6ms | Allocations: 1512)
+  Rendered shared/_head.html.erb (Duration: 547.2ms | Allocations: 53097)
+  Rendered shared/_flash_notice.html.erb (Duration: 2.3ms | Allocations: 182)
+  Rendered shared/_navbar.html.erb (Duration: 16.2ms | Allocations: 1851)
+  Rendered layout layouts/application.html.erb (Duration: 594.9ms | Allocations: 57335)
+Completed 200 OK in 683ms (Views: 624.9ms | ActiveRecord: 0.6ms | Allocations: 61979)
+
+
+Started GET "/admin" for ::1 at 2023-05-21 15:11:20 +0700
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[36mActiveStorage::Attachment Count (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_storage_attachments"[0m
+  [1m[36mActiveStorage::Attachment Load (0.5ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" ORDER BY "active_storage_attachments"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mActiveStorage::Blob Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_storage_blobs"[0m
+  [1m[36mActiveStorage::Blob Load (0.2ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" ORDER BY "active_storage_blobs"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mCustomer Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "customers"[0m
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers" ORDER BY "customers"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mEmployee Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "employees"[0m
+  [1m[36mEmployee Load (0.2ms)[0m  [1m[34mSELECT "employees".* FROM "employees" ORDER BY "employees"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mActionText::EncryptedRichText Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "action_text_rich_texts"[0m
+  [1m[36mActionText::EncryptedRichText Load (0.4ms)[0m  [1m[34mSELECT "action_text_rich_texts".* FROM "action_text_rich_texts" ORDER BY "action_text_rich_texts"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mOrder Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "orders"[0m
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders" ORDER BY "orders"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mPayment Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "payments"[0m
+  [1m[36mPayment Load (0.4ms)[0m  [1m[34mSELECT "payments".* FROM "payments" ORDER BY "payments"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mProduct Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "products"[0m
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mCACHE ActionText::RichText Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "action_text_rich_texts"[0m
+  [1m[36mCACHE ActionText::RichText Load (0.0ms)[0m  [1m[34mSELECT "action_text_rich_texts".* FROM "action_text_rich_texts" ORDER BY "action_text_rich_texts"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mSupplier Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "suppliers"[0m
+  [1m[36mSupplier Load (0.2ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" ORDER BY "suppliers"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mActiveStorage::VariantRecord Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_storage_variant_records"[0m
+  Rendering layout C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/application.html.erb
+  Rendering C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/rails_admin/main/dashboard.html.erb within layouts/rails_admin/application
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/rails_admin/main/dashboard.html.erb within layouts/rails_admin/application (Duration: 130.9ms | Allocations: 21923)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/_head.html.erb (Duration: 178.7ms | Allocations: 23277)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/_secondary_navigation.html.erb (Duration: 33.3ms | Allocations: 755)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/_navigation.html.erb (Duration: 67.7ms | Allocations: 1185)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/_sidebar_navigation.html.erb (Duration: 55.0ms | Allocations: 5627)
+  Rendering C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/content.html.erb
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/content.html.erb (Duration: 23.2ms | Allocations: 935)
+  Rendered layout C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/application.html.erb (Duration: 501.3ms | Allocations: 54203)
+Completed 200 OK in 3428ms (Views: 517.6ms | ActiveRecord: 25.8ms | Allocations: 160662)
+
+
+Started GET "/admin/customer" for ::1 at 2023-05-21 15:11:33 +0700
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"customer"}
+  Rendering layout C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/application.html.erb
+  Rendering C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/rails_admin/main/index.html.erb within layouts/rails_admin/application
+  [1m[36mCustomer Load (0.5ms)[0m  [1m[34mSELECT "customers".* FROM "customers" ORDER BY customers.id desc LIMIT ? OFFSET ?[0m  [["LIMIT", 20], ["OFFSET", 0]]
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/rails_admin/main/index.html.erb within layouts/rails_admin/application (Duration: 219.5ms | Allocations: 11783)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/_head.html.erb (Duration: 164.5ms | Allocations: 22445)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/_secondary_navigation.html.erb (Duration: 3.5ms | Allocations: 331)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/_navigation.html.erb (Duration: 4.3ms | Allocations: 481)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/_sidebar_navigation.html.erb (Duration: 25.9ms | Allocations: 5304)
+  Rendering C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/content.html.erb
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/content.html.erb (Duration: 9.4ms | Allocations: 2190)
+  Rendered layout C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/application.html.erb (Duration: 437.8ms | Allocations: 42763)
+Completed 200 OK in 453ms (Views: 444.8ms | ActiveRecord: 0.5ms | Allocations: 48063)
+
+
+Started GET "/suppliers" for 127.0.0.1 at 2023-05-21 15:11:39 +0700
+Processing by SuppliersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/index.html.erb within layouts/application
+  [1m[36mSupplier Load (0.3ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers"[0m
+  ↳ app/views/suppliers/index.html.erb:31
+  Rendered suppliers/index.html.erb within layouts/application (Duration: 17.8ms | Allocations: 1201)
+  Rendered shared/_head.html.erb (Duration: 7.7ms | Allocations: 2052)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 29)
+  Rendered shared/_navbar.html.erb (Duration: 6.0ms | Allocations: 1088)
+  Rendered layout layouts/application.html.erb (Duration: 33.9ms | Allocations: 4648)
+Completed 200 OK in 47ms (Views: 43.6ms | ActiveRecord: 0.3ms | Allocations: 5512)
+
+
+Started GET "/suppliers/new" for 127.0.0.1 at 2023-05-21 15:11:41 +0700
+Processing by SuppliersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/new.html.erb within layouts/application
+  Rendered suppliers/_form.html.erb (Duration: 321.7ms | Allocations: 12621)
+  Rendered suppliers/new.html.erb within layouts/application (Duration: 346.6ms | Allocations: 12860)
+  Rendered layout layouts/application.html.erb (Duration: 347.8ms | Allocations: 12938)
+Completed 500 Internal Server Error in 355ms (ActiveRecord: 0.0ms | Allocations: 17324)
+
+
+  
+ActionView::Template::Error (Rails couldn't find a valid model for ProductName association. Please provide the :class_name option on the association declaration. If :class_name is already provided, make sure it's an ActiveRecord::Base subclass.
+
+          raise NameError, msg
+          ^^^^^):
+    21:       </div>
+    22:   <div class="mb-6">
+    23:         <%= form.label :product_name, class: label_class %>
+    24:           <%= form.text_field :product_name, class: input_class %>
+    25:       </div>
+    26:   <div class="mb-6">
+    27:         <%= form.label :address, class: label_class %>
+  
+app/views/suppliers/_form.html.erb:24
+app/views/suppliers/_form.html.erb:1
+app/views/suppliers/new.html.erb:4
+Started GET "/" for 127.0.0.1 at 2023-05-21 15:12:10 +0700
+Processing by CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/customers/index.html.erb:27
+  Rendered customers/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 686)
+  Rendered shared/_head.html.erb (Duration: 8.0ms | Allocations: 1948)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 26)
+  Rendered shared/_navbar.html.erb (Duration: 4.5ms | Allocations: 1052)
+  Rendered layout layouts/application.html.erb (Duration: 19.4ms | Allocations: 3972)
+Completed 200 OK in 24ms (Views: 21.9ms | ActiveRecord: 0.2ms | Allocations: 4299)
+
+
+Started GET "/suppliers" for 127.0.0.1 at 2023-05-21 15:12:14 +0700
+Processing by SuppliersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/index.html.erb within layouts/application
+  [1m[36mSupplier Load (0.5ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers"[0m
+  ↳ app/views/suppliers/index.html.erb:31
+  Rendered suppliers/index.html.erb within layouts/application (Duration: 7.2ms | Allocations: 601)
+  Rendered shared/_head.html.erb (Duration: 8.0ms | Allocations: 1794)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.2ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 5.3ms | Allocations: 1028)
+  Rendered layout layouts/application.html.erb (Duration: 27.5ms | Allocations: 3703)
+Completed 200 OK in 30ms (Views: 29.3ms | ActiveRecord: 0.5ms | Allocations: 3985)
+
+
+Started GET "/" for 127.0.0.1 at 2023-05-21 15:12:25 +0700
+Processing by CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/customers/index.html.erb:27
+  Rendered customers/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 601)
+  Rendered shared/_head.html.erb (Duration: 6.4ms | Allocations: 1799)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.2ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 4.0ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 3704)
+Completed 200 OK in 19ms (Views: 18.8ms | ActiveRecord: 0.3ms | Allocations: 3983)
+
+
+Started GET "/customers/new" for 127.0.0.1 at 2023-05-21 15:12:29 +0700
+Processing by CustomersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customers/new.html.erb within layouts/application
+  Rendered customers/_form.html.erb (Duration: 261.6ms | Allocations: 8808)
+  Rendered customers/new.html.erb within layouts/application (Duration: 278.5ms | Allocations: 9044)
+  Rendered shared/_head.html.erb (Duration: 8.1ms | Allocations: 1746)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 26)
+  Rendered shared/_navbar.html.erb (Duration: 6.3ms | Allocations: 1051)
+  Rendered layout layouts/application.html.erb (Duration: 298.2ms | Allocations: 12142)
+Completed 200 OK in 303ms (Views: 300.1ms | ActiveRecord: 0.0ms | Allocations: 12513)
+
+
+Started GET "/employees" for 127.0.0.1 at 2023-05-21 15:12:33 +0700
+Processing by EmployeesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (0.3ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/views/employees/index.html.erb:27
+  Rendered employees/index.html.erb within layouts/application (Duration: 20.8ms | Allocations: 1114)
+  Rendered shared/_head.html.erb (Duration: 10.3ms | Allocations: 2036)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.8ms | Allocations: 29)
+  Rendered shared/_navbar.html.erb (Duration: 4.5ms | Allocations: 1083)
+  Rendered layout layouts/application.html.erb (Duration: 38.8ms | Allocations: 4539)
+Completed 200 OK in 49ms (Views: 46.0ms | ActiveRecord: 0.3ms | Allocations: 5432)
+
+
+Started GET "/employees/new" for 127.0.0.1 at 2023-05-21 15:12:35 +0700
+Processing by EmployeesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employees/new.html.erb within layouts/application
+  Rendered employees/_form.html.erb (Duration: 51.6ms | Allocations: 2301)
+  Rendered employees/new.html.erb within layouts/application (Duration: 68.4ms | Allocations: 2520)
+  Rendered shared/_head.html.erb (Duration: 6.3ms | Allocations: 1631)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 6.0ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 84.2ms | Allocations: 5455)
+Completed 200 OK in 92ms (Views: 85.2ms | ActiveRecord: 0.0ms | Allocations: 7830)
+
+
+Started GET "/orders" for 127.0.0.1 at 2023-05-21 15:12:37 +0700
+Processing by OrdersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.4ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/orders/index.html.erb:33
+  Rendered orders/index.html.erb within layouts/application (Duration: 32.5ms | Allocations: 1233)
+  Rendered shared/_head.html.erb (Duration: 6.0ms | Allocations: 2029)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 29)
+  Rendered shared/_navbar.html.erb (Duration: 4.0ms | Allocations: 1083)
+  Rendered layout layouts/application.html.erb (Duration: 45.9ms | Allocations: 4652)
+Completed 200 OK in 60ms (Views: 56.7ms | ActiveRecord: 0.4ms | Allocations: 5512)
+
+
+Started GET "/orders/new" for 127.0.0.1 at 2023-05-21 15:12:38 +0700
+Processing by OrdersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (Duration: 191.0ms | Allocations: 4285)
+  Rendered orders/new.html.erb within layouts/application (Duration: 200.9ms | Allocations: 4518)
+  Rendered shared/_head.html.erb (Duration: 8.7ms | Allocations: 1746)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.6ms | Allocations: 26)
+  Rendered shared/_navbar.html.erb (Duration: 6.6ms | Allocations: 1051)
+  Rendered layout layouts/application.html.erb (Duration: 223.7ms | Allocations: 7616)
+Completed 200 OK in 237ms (Views: 227.5ms | ActiveRecord: 0.0ms | Allocations: 12480)
+
+
+Started GET "/payments" for 127.0.0.1 at 2023-05-21 15:12:41 +0700
+Processing by PaymentsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering payments/index.html.erb within layouts/application
+  [1m[36mPayment Load (0.5ms)[0m  [1m[34mSELECT "payments".* FROM "payments"[0m
+  ↳ app/views/payments/index.html.erb:29
+  Rendered payments/index.html.erb within layouts/application (Duration: 40.3ms | Allocations: 1149)
+  Rendered shared/_head.html.erb (Duration: 9.6ms | Allocations: 2030)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 29)
+  Rendered shared/_navbar.html.erb (Duration: 6.0ms | Allocations: 1083)
+  Rendered layout layouts/application.html.erb (Duration: 59.8ms | Allocations: 4568)
+Completed 200 OK in 79ms (Views: 75.0ms | ActiveRecord: 0.5ms | Allocations: 5461)
+
+
+Started GET "/payments/new" for 127.0.0.1 at 2023-05-21 15:12:42 +0700
+Processing by PaymentsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering payments/new.html.erb within layouts/application
+  Rendered payments/_form.html.erb (Duration: 83.5ms | Allocations: 2632)
+  Rendered payments/new.html.erb within layouts/application (Duration: 98.7ms | Allocations: 2851)
+  Rendered shared/_head.html.erb (Duration: 6.9ms | Allocations: 1631)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.2ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 4.1ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 113.4ms | Allocations: 5786)
+Completed 200 OK in 121ms (Views: 114.4ms | ActiveRecord: 0.0ms | Allocations: 8547)
+
+
+Started GET "/products" for 127.0.0.1 at 2023-05-21 15:12:44 +0700
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:30
+  Rendered products/index.html.erb within layouts/application (Duration: 29.4ms | Allocations: 1168)
+  Rendered shared/_head.html.erb (Duration: 6.2ms | Allocations: 2036)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 29)
+  Rendered shared/_navbar.html.erb (Duration: 5.0ms | Allocations: 1083)
+  Rendered layout layouts/application.html.erb (Duration: 43.8ms | Allocations: 4593)
+Completed 200 OK in 57ms (Views: 53.0ms | ActiveRecord: 0.4ms | Allocations: 5442)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2023-05-21 15:12:46 +0700
+Processing by ProductsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/_form.html.erb (Duration: 194.4ms | Allocations: 3183)
+  Rendered products/new.html.erb within layouts/application (Duration: 206.7ms | Allocations: 3416)
+  Rendered shared/_head.html.erb (Duration: 9.2ms | Allocations: 1746)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 26)
+  Rendered shared/_navbar.html.erb (Duration: 4.5ms | Allocations: 1052)
+  Rendered layout layouts/application.html.erb (Duration: 225.5ms | Allocations: 6515)
+Completed 200 OK in 236ms (Views: 227.1ms | ActiveRecord: 0.0ms | Allocations: 9503)
+
+
+Started GET "/suppliers" for 127.0.0.1 at 2023-05-21 15:12:48 +0700
+Processing by SuppliersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/index.html.erb within layouts/application
+  [1m[36mSupplier Load (0.6ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers"[0m
+  ↳ app/views/suppliers/index.html.erb:31
+  Rendered suppliers/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 655)
+  Rendered shared/_head.html.erb (Duration: 8.4ms | Allocations: 1796)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 5.4ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 22.3ms | Allocations: 3756)
+Completed 200 OK in 25ms (Views: 23.4ms | ActiveRecord: 0.6ms | Allocations: 4075)
+
+
+Started GET "/suppliers/new" for 127.0.0.1 at 2023-05-21 15:12:49 +0700
+Processing by SuppliersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/new.html.erb within layouts/application
+  Rendered suppliers/_form.html.erb (Duration: 8.0ms | Allocations: 6866)
+  Rendered suppliers/new.html.erb within layouts/application (Duration: 8.6ms | Allocations: 6929)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 7006)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms | Allocations: 7438)
+
+
+  
+ActionView::Template::Error (Rails couldn't find a valid model for ProductName association. Please provide the :class_name option on the association declaration. If :class_name is already provided, make sure it's an ActiveRecord::Base subclass.
+
+          raise NameError, msg
+          ^^^^^):
+    21:       </div>
+    22:   <div class="mb-6">
+    23:         <%= form.label :product_name, class: label_class %>
+    24:           <%= form.text_field :product_name, class: input_class %>
+    25:       </div>
+    26:   <div class="mb-6">
+    27:         <%= form.label :address, class: label_class %>
+  
+app/views/suppliers/_form.html.erb:24
+app/views/suppliers/_form.html.erb:1
+app/views/suppliers/new.html.erb:4
+Started GET "/products/new" for 127.0.0.1 at 2023-05-21 15:13:49 +0700
+Processing by ProductsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/_form.html.erb (Duration: 2.7ms | Allocations: 2026)
+  Rendered products/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 2087)
+  Rendered shared/_head.html.erb (Duration: 8.5ms | Allocations: 1635)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 4.2ms | Allocations: 1028)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 5030)
+Completed 200 OK in 21ms (Views: 20.7ms | ActiveRecord: 0.0ms | Allocations: 5318)
+
+
+Started GET "/suppliers" for 127.0.0.1 at 2023-05-21 15:13:54 +0700
+Processing by SuppliersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/index.html.erb within layouts/application
+  [1m[36mSupplier Load (0.3ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers"[0m
+  ↳ app/views/suppliers/index.html.erb:31
+  Rendered suppliers/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 601)
+  Rendered shared/_head.html.erb (Duration: 9.3ms | Allocations: 1802)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 4.3ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 20.3ms | Allocations: 3707)
+Completed 200 OK in 23ms (Views: 22.5ms | ActiveRecord: 0.3ms | Allocations: 3988)
+
+
+Started GET "/suppliers" for 127.0.0.1 at 2023-05-21 15:15:24 +0700
+Processing by SuppliersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/index.html.erb within layouts/application
+  [1m[36mSupplier Load (0.2ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers"[0m
+  ↳ app/views/suppliers/index.html.erb:31
+  Rendered suppliers/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1021)
+  Rendered shared/_head.html.erb (Duration: 7.3ms | Allocations: 2053)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 29)
+  Rendered shared/_navbar.html.erb (Duration: 4.4ms | Allocations: 1106)
+  Rendered layout layouts/application.html.erb (Duration: 17.9ms | Allocations: 4486)
+Completed 200 OK in 34ms (Views: 22.1ms | ActiveRecord: 1.0ms | Allocations: 6246)
+
+
+Started GET "/suppliers/new" for 127.0.0.1 at 2023-05-21 15:15:29 +0700
+Processing by SuppliersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/new.html.erb within layouts/application
+  Rendered suppliers/_form.html.erb (Duration: 5.0ms | Allocations: 2576)
+  Rendered suppliers/new.html.erb within layouts/application (Duration: 5.7ms | Allocations: 2639)
+  Rendered shared/_head.html.erb (Duration: 8.5ms | Allocations: 1635)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 5.4ms | Allocations: 1028)
+  Rendered layout layouts/application.html.erb (Duration: 23.4ms | Allocations: 5582)
+Completed 200 OK in 31ms (Views: 24.5ms | ActiveRecord: 1.7ms | Allocations: 8570)
+
+
+Started POST "/suppliers" for 127.0.0.1 at 2023-05-21 15:19:20 +0700
+Processing by SuppliersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "supplier"=>{"sup_code"=>"S01", "supplier_name"=>"Xuong may Thu Trang", "product_name"=>"dress, T-shirt", "address"=>"164 Dich Vong, Cau Giay, Ha Noi", "email"=>"xuongmaythutrang@gmail.com", "pay_method"=>"chuyen khoan hoac tien mat", "discount"=>"hoa don tren 5 trieu giam 10%"}, "commit"=>"Create Supplier"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/suppliers_controller.rb:27:in `block in create'
+  [1m[36mSupplier Create (5.4ms)[0m  [1m[32mINSERT INTO "suppliers" ("sup_code", "supplier_name", "product_name", "address", "email", "pay_method", "discount", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["sup_code", "S01"], ["supplier_name", "Xuong may Thu Trang"], ["product_name", "dress, T-shirt"], ["address", "164 Dich Vong, Cau Giay, Ha Noi"], ["email", "xuongmaythutrang@gmail.com"], ["pay_method", "chuyen khoan hoac tien mat"], ["discount", "hoa don tren 5 trieu giam 10%"], ["created_at", "2023-05-21 08:19:20.990703"], ["updated_at", "2023-05-21 08:19:20.990703"]]
+  ↳ app/controllers/suppliers_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (6.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/suppliers_controller.rb:27:in `block in create'
+Redirected to http://127.0.0.1:3000/suppliers/1
+Completed 302 Found in 37ms (ActiveRecord: 11.7ms | Allocations: 3839)
+
+
+Started GET "/suppliers/1" for 127.0.0.1 at 2023-05-21 15:19:21 +0700
+Processing by SuppliersController#show as TURBO_STREAM
+  Parameters: {"id"=>"1"}
+  [1m[36mSupplier Load (1.6ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/suppliers_controller.rb:63:in `set_supplier'
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/show.html.erb within layouts/application
+  Rendered suppliers/show.html.erb within layouts/application (Duration: 23.3ms | Allocations: 552)
+  Rendered shared/_head.html.erb (Duration: 9.8ms | Allocations: 1961)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered shared/_navbar.html.erb (Duration: 5.6ms | Allocations: 1053)
+  Rendered layout layouts/application.html.erb (Duration: 41.0ms | Allocations: 3924)
+Completed 200 OK in 93ms (Views: 42.4ms | ActiveRecord: 1.6ms | Allocations: 6400)
+
+
+Started GET "/suppliers" for 127.0.0.1 at 2023-05-21 15:19:26 +0700
+Processing by SuppliersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/index.html.erb within layouts/application
+  [1m[36mSupplier Load (0.3ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers"[0m
+  ↳ app/views/suppliers/index.html.erb:31
+  Rendered suppliers/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 755)
+  Rendered shared/_head.html.erb (Duration: 9.3ms | Allocations: 1779)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 5.2ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 21.8ms | Allocations: 3838)
+Completed 200 OK in 23ms (Views: 22.6ms | ActiveRecord: 0.3ms | Allocations: 4124)
+
+
+Started GET "/suppliers/1" for 127.0.0.1 at 2023-05-21 15:19:29 +0700
+Processing by SuppliersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSupplier Load (0.3ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/suppliers_controller.rb:63:in `set_supplier'
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/show.html.erb within layouts/application
+  Rendered suppliers/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 149)
+  Rendered shared/_head.html.erb (Duration: 6.5ms | Allocations: 1782)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 4.5ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 3235)
+Completed 200 OK in 16ms (Views: 13.7ms | ActiveRecord: 0.3ms | Allocations: 3983)
+
+
+Started GET "/suppliers" for 127.0.0.1 at 2023-05-21 15:19:31 +0700
+Processing by SuppliersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/index.html.erb within layouts/application
+  [1m[36mSupplier Load (0.4ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers"[0m
+  ↳ app/views/suppliers/index.html.erb:31
+  Rendered suppliers/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 720)
+  Rendered shared/_head.html.erb (Duration: 6.8ms | Allocations: 1778)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.6ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 3802)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.4ms | Allocations: 4083)
+
+
+Started GET "/suppliers" for 127.0.0.1 at 2023-05-21 15:19:37 +0700
+Processing by SuppliersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/index.html.erb within layouts/application
+  [1m[36mSupplier Load (0.3ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers"[0m
+  ↳ app/views/suppliers/index.html.erb:31
+  Rendered suppliers/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 720)
+  Rendered shared/_head.html.erb (Duration: 5.9ms | Allocations: 1805)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.7ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 3829)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.3ms | Allocations: 4108)
+
+
+Started GET "/suppliers/new" for 127.0.0.1 at 2023-05-21 15:19:42 +0700
+Processing by SuppliersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/new.html.erb within layouts/application
+  Rendered suppliers/_form.html.erb (Duration: 2.5ms | Allocations: 2373)
+  Rendered suppliers/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 2434)
+  Rendered shared/_head.html.erb (Duration: 7.3ms | Allocations: 1631)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 5.0ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 5369)
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.0ms | Allocations: 5661)
+
+
+Started POST "/suppliers" for 127.0.0.1 at 2023-05-21 15:21:00 +0700
+Processing by SuppliersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "supplier"=>{"sup_code"=>"01", "supplier_name"=>"Kho si Quang Chau", "product_name"=>"dress, t-shirt, short", "address"=>"67 Trung Van, Nam Tu Liem, Ha Noi", "email"=>"khosiquangchau@gmail.com", "pay_method"=>"chuyen khoan hoac tien mat", "discount"=>"no discount"}, "commit"=>"Create Supplier"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/suppliers_controller.rb:27:in `block in create'
+  [1m[36mSupplier Create (12.7ms)[0m  [1m[32mINSERT INTO "suppliers" ("sup_code", "supplier_name", "product_name", "address", "email", "pay_method", "discount", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["sup_code", "01"], ["supplier_name", "Kho si Quang Chau"], ["product_name", "dress, t-shirt, short"], ["address", "67 Trung Van, Nam Tu Liem, Ha Noi"], ["email", "khosiquangchau@gmail.com"], ["pay_method", "chuyen khoan hoac tien mat"], ["discount", "no discount"], ["created_at", "2023-05-21 08:21:00.892853"], ["updated_at", "2023-05-21 08:21:00.892853"]]
+  ↳ app/controllers/suppliers_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (5.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/suppliers_controller.rb:27:in `block in create'
+Redirected to http://127.0.0.1:3000/suppliers/2
+Completed 302 Found in 27ms (ActiveRecord: 18.5ms | Allocations: 2428)
+
+
+Started GET "/suppliers/2" for 127.0.0.1 at 2023-05-21 15:21:01 +0700
+Processing by SuppliersController#show as TURBO_STREAM
+  Parameters: {"id"=>"2"}
+  [1m[36mSupplier Load (0.5ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/suppliers_controller.rb:63:in `set_supplier'
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/show.html.erb within layouts/application
+  Rendered suppliers/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 148)
+  Rendered shared/_head.html.erb (Duration: 5.3ms | Allocations: 1810)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 33)
+  Rendered shared/_navbar.html.erb (Duration: 7.1ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 3282)
+Completed 200 OK in 19ms (Views: 16.2ms | ActiveRecord: 0.5ms | Allocations: 4029)
+
+
+Started GET "/suppliers" for 127.0.0.1 at 2023-05-21 15:21:03 +0700
+Processing by SuppliersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/index.html.erb within layouts/application
+  [1m[36mSupplier Load (0.4ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers"[0m
+  ↳ app/views/suppliers/index.html.erb:31
+  Rendered suppliers/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 831)
+  Rendered shared/_head.html.erb (Duration: 7.7ms | Allocations: 1796)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 6.4ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 19.0ms | Allocations: 3931)
+Completed 200 OK in 20ms (Views: 19.7ms | ActiveRecord: 0.4ms | Allocations: 4212)
+
+
+Started GET "/suppliers/new" for 127.0.0.1 at 2023-05-21 15:21:07 +0700
+Processing by SuppliersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/new.html.erb within layouts/application
+  Rendered suppliers/_form.html.erb (Duration: 4.1ms | Allocations: 2298)
+  Rendered suppliers/new.html.erb within layouts/application (Duration: 4.7ms | Allocations: 2359)
+  Rendered shared/_head.html.erb (Duration: 4.5ms | Allocations: 1631)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.7ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 15.1ms | Allocations: 5294)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms | Allocations: 5582)
+
+
+Started GET "/suppliers/1" for 127.0.0.1 at 2023-05-21 15:21:16 +0700
+Processing by SuppliersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSupplier Load (0.5ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/suppliers_controller.rb:63:in `set_supplier'
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/show.html.erb within layouts/application
+  Rendered suppliers/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 149)
+  Rendered shared/_head.html.erb (Duration: 7.5ms | Allocations: 1794)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 4.2ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 3247)
+Completed 200 OK in 19ms (Views: 16.8ms | ActiveRecord: 0.5ms | Allocations: 3993)
+
+
+Started GET "/suppliers/2" for 127.0.0.1 at 2023-05-21 15:21:20 +0700
+Processing by SuppliersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mSupplier Load (0.3ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/suppliers_controller.rb:63:in `set_supplier'
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/show.html.erb within layouts/application
+  Rendered suppliers/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 148)
+  Rendered shared/_head.html.erb (Duration: 9.6ms | Allocations: 1797)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 4.3ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 3249)
+Completed 200 OK in 20ms (Views: 17.8ms | ActiveRecord: 0.3ms | Allocations: 3995)
+
+
+Started GET "/suppliers/2/edit" for 127.0.0.1 at 2023-05-21 15:21:28 +0700
+Processing by SuppliersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mSupplier Load (0.4ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/suppliers_controller.rb:63:in `set_supplier'
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/edit.html.erb within layouts/application
+  Rendered suppliers/_form.html.erb (Duration: 3.9ms | Allocations: 2283)
+  Rendered suppliers/edit.html.erb within layouts/application (Duration: 21.6ms | Allocations: 2959)
+  Rendered shared/_head.html.erb (Duration: 7.4ms | Allocations: 1627)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 4.5ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 36.4ms | Allocations: 5890)
+Completed 200 OK in 42ms (Views: 37.8ms | ActiveRecord: 0.4ms | Allocations: 6690)
+
+
+Started PATCH "/suppliers/2" for 127.0.0.1 at 2023-05-21 15:21:36 +0700
+Processing by SuppliersController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "supplier"=>{"sup_code"=>"S01", "supplier_name"=>"Kho si Quang Chau", "product_name"=>"dress, t-shirt, short", "address"=>"67 Trung Van, Nam Tu Liem, Ha Noi", "email"=>"khosiquangchau@gmail.com", "pay_method"=>"chuyen khoan hoac tien mat", "discount"=>"no discount"}, "commit"=>"Update Supplier", "id"=>"2"}
+  [1m[36mSupplier Load (0.3ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/suppliers_controller.rb:63:in `set_supplier'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/suppliers_controller.rb:40:in `block in update'
+  [1m[36mSupplier Update (12.4ms)[0m  [1m[33mUPDATE "suppliers" SET "sup_code" = ?, "updated_at" = ? WHERE "suppliers"."id" = ?[0m  [["sup_code", "S01"], ["updated_at", "2023-05-21 08:21:36.497555"], ["id", 2]]
+  ↳ app/controllers/suppliers_controller.rb:40:in `block in update'
+  [1m[36mTRANSACTION (4.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/suppliers_controller.rb:40:in `block in update'
+Redirected to http://127.0.0.1:3000/suppliers/2
+Completed 302 Found in 45ms (ActiveRecord: 17.3ms | Allocations: 3025)
+
+
+Started GET "/suppliers/2" for 127.0.0.1 at 2023-05-21 15:21:36 +0700
+Processing by SuppliersController#show as TURBO_STREAM
+  Parameters: {"id"=>"2"}
+  [1m[36mSupplier Load (0.7ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/suppliers_controller.rb:63:in `set_supplier'
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/show.html.erb within layouts/application
+  Rendered suppliers/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 148)
+  Rendered shared/_head.html.erb (Duration: 5.1ms | Allocations: 1832)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 33)
+  Rendered shared/_navbar.html.erb (Duration: 7.1ms | Allocations: 1028)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 3308)
+Completed 200 OK in 21ms (Views: 15.0ms | ActiveRecord: 0.7ms | Allocations: 4055)
+
+
+Started GET "/suppliers" for 127.0.0.1 at 2023-05-21 15:21:41 +0700
+Processing by SuppliersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/index.html.erb within layouts/application
+  [1m[36mSupplier Load (0.3ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers"[0m
+  ↳ app/views/suppliers/index.html.erb:31
+  Rendered suppliers/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 831)
+  Rendered shared/_head.html.erb (Duration: 5.5ms | Allocations: 1803)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.9ms | Allocations: 1028)
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 3942)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.3ms | Allocations: 4223)
+
+
+Started GET "/suppliers/2" for 127.0.0.1 at 2023-05-21 15:21:45 +0700
+Processing by SuppliersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mSupplier Load (0.6ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/suppliers_controller.rb:63:in `set_supplier'
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/show.html.erb within layouts/application
+  Rendered suppliers/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 148)
+  Rendered shared/_head.html.erb (Duration: 6.8ms | Allocations: 1791)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.5ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 13.4ms | Allocations: 3243)
+Completed 200 OK in 18ms (Views: 15.2ms | ActiveRecord: 0.6ms | Allocations: 3989)
+
+
+Started GET "/suppliers/2/edit" for 127.0.0.1 at 2023-05-21 15:21:48 +0700
+Processing by SuppliersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mSupplier Load (0.3ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/suppliers_controller.rb:63:in `set_supplier'
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/edit.html.erb within layouts/application
+  Rendered suppliers/_form.html.erb (Duration: 3.1ms | Allocations: 2255)
+  Rendered suppliers/edit.html.erb within layouts/application (Duration: 4.3ms | Allocations: 2731)
+  Rendered shared/_head.html.erb (Duration: 7.7ms | Allocations: 1627)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 5.4ms | Allocations: 1028)
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 5666)
+Completed 200 OK in 23ms (Views: 20.8ms | ActiveRecord: 0.3ms | Allocations: 6412)
+
+
+Started PATCH "/suppliers/2" for 127.0.0.1 at 2023-05-21 15:21:53 +0700
+Processing by SuppliersController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "supplier"=>{"sup_code"=>"S02", "supplier_name"=>"Kho si Quang Chau", "product_name"=>"dress, t-shirt, short", "address"=>"67 Trung Van, Nam Tu Liem, Ha Noi", "email"=>"khosiquangchau@gmail.com", "pay_method"=>"chuyen khoan hoac tien mat", "discount"=>"no discount"}, "commit"=>"Update Supplier", "id"=>"2"}
+  [1m[36mSupplier Load (0.4ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/suppliers_controller.rb:63:in `set_supplier'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/suppliers_controller.rb:40:in `block in update'
+  [1m[36mSupplier Update (12.2ms)[0m  [1m[33mUPDATE "suppliers" SET "sup_code" = ?, "updated_at" = ? WHERE "suppliers"."id" = ?[0m  [["sup_code", "S02"], ["updated_at", "2023-05-21 08:21:53.903671"], ["id", 2]]
+  ↳ app/controllers/suppliers_controller.rb:40:in `block in update'
+  [1m[36mTRANSACTION (4.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/suppliers_controller.rb:40:in `block in update'
+Redirected to http://127.0.0.1:3000/suppliers/2
+Completed 302 Found in 28ms (ActiveRecord: 17.6ms | Allocations: 2826)
+
+
+Started GET "/suppliers/2" for 127.0.0.1 at 2023-05-21 15:21:54 +0700
+Processing by SuppliersController#show as TURBO_STREAM
+  Parameters: {"id"=>"2"}
+  [1m[36mSupplier Load (0.3ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/suppliers_controller.rb:63:in `set_supplier'
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/show.html.erb within layouts/application
+  Rendered suppliers/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 148)
+  Rendered shared/_head.html.erb (Duration: 5.5ms | Allocations: 1795)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 33)
+  Rendered shared/_navbar.html.erb (Duration: 3.5ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 3267)
+Completed 200 OK in 14ms (Views: 11.8ms | ActiveRecord: 0.3ms | Allocations: 4014)
+
+
+Started GET "/suppliers" for 127.0.0.1 at 2023-05-21 15:21:57 +0700
+Processing by SuppliersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/index.html.erb within layouts/application
+  [1m[36mSupplier Load (0.4ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers"[0m
+  ↳ app/views/suppliers/index.html.erb:31
+  Rendered suppliers/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 831)
+  Rendered shared/_head.html.erb (Duration: 11.4ms | Allocations: 1784)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 7.3ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 26.8ms | Allocations: 3919)
+Completed 200 OK in 29ms (Views: 27.8ms | ActiveRecord: 0.4ms | Allocations: 4200)
+
+
+Started GET "/" for 127.0.0.1 at 2023-05-21 15:24:10 +0700
+Processing by CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.9ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/customers/index.html.erb:27
+  Rendered customers/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 846)
+  Rendered shared/_head.html.erb (Duration: 8.1ms | Allocations: 2040)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 29)
+  Rendered shared/_navbar.html.erb (Duration: 5.2ms | Allocations: 1084)
+  Rendered layout layouts/application.html.erb (Duration: 25.7ms | Allocations: 4276)
+Completed 200 OK in 33ms (Views: 27.2ms | ActiveRecord: 0.9ms | Allocations: 5476)
+
+
+Started GET "/payments" for 127.0.0.1 at 2023-05-21 15:26:54 +0700
+Processing by PaymentsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering payments/index.html.erb within layouts/application
+  [1m[36mPayment Load (0.6ms)[0m  [1m[34mSELECT "payments".* FROM "payments"[0m
+  ↳ app/views/payments/index.html.erb:29
+  Rendered payments/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 850)
+  Rendered shared/_head.html.erb (Duration: 8.4ms | Allocations: 2052)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 29)
+  Rendered shared/_navbar.html.erb (Duration: 4.3ms | Allocations: 1084)
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 4292)
+Completed 200 OK in 23ms (Views: 18.7ms | ActiveRecord: 0.6ms | Allocations: 5681)
+
+
+Started GET "/employees" for 127.0.0.1 at 2023-05-21 15:26:58 +0700
+Processing by EmployeesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (0.6ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/views/employees/index.html.erb:27
+  Rendered employees/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 846)
+  Rendered shared/_head.html.erb (Duration: 6.1ms | Allocations: 2031)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 29)
+  Rendered shared/_navbar.html.erb (Duration: 3.5ms | Allocations: 1084)
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 4267)
+Completed 200 OK in 22ms (Views: 17.1ms | ActiveRecord: 0.6ms | Allocations: 5469)
+
+
+Started GET "/admin/customer" for ::1 at 2023-05-21 15:32:49 +0700
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"customer"}
+  Rendering layout C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/application.html.erb
+  Rendering C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/rails_admin/main/index.html.erb within layouts/rails_admin/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers" ORDER BY customers.id desc LIMIT ? OFFSET ?[0m  [["LIMIT", 20], ["OFFSET", 0]]
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/rails_admin/main/index.html.erb within layouts/rails_admin/application (Duration: 9.3ms | Allocations: 9348)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/_head.html.erb (Duration: 70.3ms | Allocations: 22679)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/_secondary_navigation.html.erb (Duration: 1.4ms | Allocations: 451)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/_navigation.html.erb (Duration: 2.4ms | Allocations: 614)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/_sidebar_navigation.html.erb (Duration: 8.7ms | Allocations: 8407)
+  Rendering C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/content.html.erb
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/content.html.erb (Duration: 2.9ms | Allocations: 2217)
+  Rendered layout C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/application.html.erb (Duration: 97.8ms | Allocations: 43854)
+Completed 200 OK in 290ms (Views: 101.0ms | ActiveRecord: 1.9ms | Allocations: 87971)
+
+
+Started GET "/employees" for 127.0.0.1 at 2023-05-21 15:35:24 +0700
+Processing by EmployeesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (0.5ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/views/employees/index.html.erb:27
+  Rendered employees/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 697)
+  Rendered shared/_head.html.erb (Duration: 5.3ms | Allocations: 1876)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.2ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.9ms | Allocations: 1054)
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 3911)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.5ms | Allocations: 4232)
+
+
+Started GET "/employees/new" for 127.0.0.1 at 2023-05-21 15:36:03 +0700
+Processing by EmployeesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employees/new.html.erb within layouts/application
+  Rendered employees/_form.html.erb (Duration: 2.5ms | Allocations: 1696)
+  Rendered employees/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1759)
+  Rendered shared/_head.html.erb (Duration: 4.9ms | Allocations: 1631)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.2ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 4694)
+Completed 200 OK in 18ms (Views: 14.6ms | ActiveRecord: 0.9ms | Allocations: 6866)
+
+
+Started POST "/employees" for 127.0.0.1 at 2023-05-21 15:37:16 +0700
+Processing by EmployeesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "employee"=>{"code"=>"", "name"=>"", "address"=>"", "phone_number"=>""}, "commit"=>"Create Employee"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/employees_controller.rb:27:in `block in create'
+  [1m[36mEmployee Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "employees" WHERE "employees"."code" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/employees_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/employees_controller.rb:27:in `block in create'
+  Rendering layout layouts/application.html.erb
+  Rendering employees/new.html.erb within layouts/application
+  Rendered employees/_form.html.erb (Duration: 12.8ms | Allocations: 5442)
+  Rendered employees/new.html.erb within layouts/application (Duration: 13.3ms | Allocations: 5503)
+  Rendered shared/_head.html.erb (Duration: 5.1ms | Allocations: 1627)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 4.4ms | Allocations: 1028)
+  Rendered layout layouts/application.html.erb (Duration: 25.5ms | Allocations: 8438)
+Completed 422 Unprocessable Entity in 34ms (Views: 26.7ms | ActiveRecord: 0.6ms | Allocations: 11771)
+
+
+Started POST "/employees" for 127.0.0.1 at 2023-05-21 15:41:51 +0700
+Processing by EmployeesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "employee"=>{"code"=>"01", "name"=>"Dao My Linh", "address"=>"54 Dai An, Van Quan,Ha Dong, Ha Noi", "phone_number"=>"0964752143"}, "commit"=>"Create Employee"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/employees_controller.rb:27:in `block in create'
+  [1m[36mEmployee Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "employees" WHERE "employees"."code" = ? LIMIT ?[0m  [["code", 1], ["LIMIT", 1]]
+  ↳ app/controllers/employees_controller.rb:27:in `block in create'
+  [1m[36mEmployee Create (12.7ms)[0m  [1m[32mINSERT INTO "employees" ("code", "name", "address", "phone_number", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["code", 1], ["name", "Dao My Linh"], ["address", "54 Dai An, Van Quan,Ha Dong, Ha Noi"], ["phone_number", 964752143], ["created_at", "2023-05-21 08:41:51.574552"], ["updated_at", "2023-05-21 08:41:51.574552"]]
+  ↳ app/controllers/employees_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (5.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/employees_controller.rb:27:in `block in create'
+Redirected to http://127.0.0.1:3000/employees/1
+Completed 302 Found in 30ms (ActiveRecord: 18.4ms | Allocations: 3229)
+
+
+Started GET "/employees/1" for 127.0.0.1 at 2023-05-21 15:41:51 +0700
+Processing by EmployeesController#show as TURBO_STREAM
+  Parameters: {"id"=>"1"}
+  [1m[36mEmployee Load (0.3ms)[0m  [1m[34mSELECT "employees".* FROM "employees" WHERE "employees"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/employees_controller.rb:63:in `set_employee'
+  Rendering layout layouts/application.html.erb
+  Rendering employees/show.html.erb within layouts/application
+  Rendered employees/show.html.erb within layouts/application (Duration: 29.2ms | Allocations: 433)
+  Rendered shared/_head.html.erb (Duration: 5.7ms | Allocations: 1795)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.2ms | Allocations: 36)
+  Rendered shared/_navbar.html.erb (Duration: 3.3ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 40.9ms | Allocations: 3555)
+Completed 200 OK in 48ms (Views: 43.3ms | ActiveRecord: 0.3ms | Allocations: 5030)
+
+
+Started GET "/employees" for 127.0.0.1 at 2023-05-21 15:41:55 +0700
+Processing by EmployeesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (0.3ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/views/employees/index.html.erb:27
+  Rendered employees/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 725)
+  Rendered shared/_head.html.erb (Duration: 5.7ms | Allocations: 1793)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.8ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 3822)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.3ms | Allocations: 4103)
+
+
+Started GET "/employees/new" for 127.0.0.1 at 2023-05-21 15:42:03 +0700
+Processing by EmployeesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employees/new.html.erb within layouts/application
+  Rendered employees/_form.html.erb (Duration: 3.4ms | Allocations: 1568)
+  Rendered employees/new.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1629)
+  Rendered shared/_head.html.erb (Duration: 4.7ms | Allocations: 1632)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.0ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 4565)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.0ms | Allocations: 4850)
+
+
+Started GET "/suppliers" for 127.0.0.1 at 2023-05-21 15:42:13 +0700
+Processing by SuppliersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/index.html.erb within layouts/application
+  [1m[36mSupplier Load (11.5ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers"[0m
+  ↳ app/views/suppliers/index.html.erb:31
+  Rendered suppliers/index.html.erb within layouts/application (Duration: 14.4ms | Allocations: 877)
+  Rendered shared/_head.html.erb (Duration: 5.3ms | Allocations: 1787)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.4ms | Allocations: 1025)
+  Rendered layout layouts/application.html.erb (Duration: 26.7ms | Allocations: 3969)
+Completed 200 OK in 29ms (Views: 17.1ms | ActiveRecord: 11.5ms | Allocations: 4254)
+
+
+Started GET "/suppliers/1" for 127.0.0.1 at 2023-05-21 15:42:17 +0700
+Processing by SuppliersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSupplier Load (0.4ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/suppliers_controller.rb:63:in `set_supplier'
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/show.html.erb within layouts/application
+  Rendered suppliers/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 149)
+  Rendered shared/_head.html.erb (Duration: 4.6ms | Allocations: 1797)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.4ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 3250)
+Completed 200 OK in 16ms (Views: 13.3ms | ActiveRecord: 0.4ms | Allocations: 4042)
+
+
+Started GET "/suppliers" for 127.0.0.1 at 2023-05-21 15:42:19 +0700
+Processing by SuppliersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/index.html.erb within layouts/application
+  [1m[36mSupplier Load (0.3ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers"[0m
+  ↳ app/views/suppliers/index.html.erb:31
+  Rendered suppliers/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 831)
+  Rendered shared/_head.html.erb (Duration: 4.3ms | Allocations: 1778)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 2.8ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 3913)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.3ms | Allocations: 4194)
+
+
+Started GET "/employees" for 127.0.0.1 at 2023-05-21 15:42:22 +0700
+Processing by EmployeesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (0.2ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/views/employees/index.html.erb:27
+  Rendered employees/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 704)
+  Rendered shared/_head.html.erb (Duration: 4.7ms | Allocations: 1793)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.9ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 3801)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.2ms | Allocations: 4082)
+
+
+Started GET "/employees/new" for 127.0.0.1 at 2023-05-21 15:42:25 +0700
+Processing by EmployeesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employees/new.html.erb within layouts/application
+  Rendered employees/_form.html.erb (Duration: 2.7ms | Allocations: 1562)
+  Rendered employees/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1623)
+  Rendered shared/_head.html.erb (Duration: 5.4ms | Allocations: 1631)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.2ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 4.0ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 17.1ms | Allocations: 4558)
+Completed 200 OK in 19ms (Views: 18.5ms | ActiveRecord: 0.0ms | Allocations: 4843)
+
+
+Started POST "/employees" for 127.0.0.1 at 2023-05-21 15:43:06 +0700
+Processing by EmployeesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "employee"=>{"code"=>"02", "name"=>"Nguyen Anh Tuyet", "address"=>"144 Trung Kinh, Cau Giay, Ha Noi", "phone_number"=>"033456714"}, "commit"=>"Create Employee"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/employees_controller.rb:27:in `block in create'
+  [1m[36mEmployee Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "employees" WHERE "employees"."code" = ? LIMIT ?[0m  [["code", 2], ["LIMIT", 1]]
+  ↳ app/controllers/employees_controller.rb:27:in `block in create'
+  [1m[36mEmployee Create (12.2ms)[0m  [1m[32mINSERT INTO "employees" ("code", "name", "address", "phone_number", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["code", 2], ["name", "Nguyen Anh Tuyet"], ["address", "144 Trung Kinh, Cau Giay, Ha Noi"], ["phone_number", 33456714], ["created_at", "2023-05-21 08:43:06.528464"], ["updated_at", "2023-05-21 08:43:06.528464"]]
+  ↳ app/controllers/employees_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (5.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/employees_controller.rb:27:in `block in create'
+Redirected to http://127.0.0.1:3000/employees/2
+Completed 302 Found in 30ms (ActiveRecord: 18.7ms | Allocations: 3086)
+
+
+Started GET "/employees/2" for 127.0.0.1 at 2023-05-21 15:43:06 +0700
+Processing by EmployeesController#show as TURBO_STREAM
+  Parameters: {"id"=>"2"}
+  [1m[36mEmployee Load (0.3ms)[0m  [1m[34mSELECT "employees".* FROM "employees" WHERE "employees"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/employees_controller.rb:63:in `set_employee'
+  Rendering layout layouts/application.html.erb
+  Rendering employees/show.html.erb within layouts/application
+  Rendered employees/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 140)
+  Rendered shared/_head.html.erb (Duration: 4.9ms | Allocations: 1828)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 33)
+  Rendered shared/_navbar.html.erb (Duration: 3.5ms | Allocations: 1026)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 3294)
+Completed 200 OK in 16ms (Views: 13.2ms | ActiveRecord: 0.3ms | Allocations: 4036)
+
+
+Started GET "/employees" for 127.0.0.1 at 2023-05-21 15:43:08 +0700
+Processing by EmployeesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (0.3ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/views/employees/index.html.erb:27
+  Rendered employees/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 800)
+  Rendered shared/_head.html.erb (Duration: 5.0ms | Allocations: 1793)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 4.3ms | Allocations: 1026)
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 3899)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.3ms | Allocations: 4180)
+
+
+Started GET "/admin/employee" for ::1 at 2023-05-21 15:43:23 +0700
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"employee"}
+  Rendering layout C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/application.html.erb
+  Rendering C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/rails_admin/main/index.html.erb within layouts/rails_admin/application
+  [1m[36mEmployee Load (0.3ms)[0m  [1m[34mSELECT "employees".* FROM "employees" ORDER BY employees.id desc LIMIT ? OFFSET ?[0m  [["LIMIT", 20], ["OFFSET", 0]]
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/rails_admin/main/index.html.erb within layouts/rails_admin/application (Duration: 41.4ms | Allocations: 17069)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/_head.html.erb (Duration: 58.8ms | Allocations: 22614)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/_secondary_navigation.html.erb (Duration: 0.8ms | Allocations: 324)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/_navigation.html.erb (Duration: 1.9ms | Allocations: 474)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/_sidebar_navigation.html.erb (Duration: 4.0ms | Allocations: 5300)
+  Rendering C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/content.html.erb
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/content.html.erb (Duration: 3.6ms | Allocations: 2073)
+  Rendered layout C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/application.html.erb (Duration: 113.9ms | Allocations: 48089)
+Completed 200 OK in 118ms (Views: 115.1ms | ActiveRecord: 0.3ms | Allocations: 49502)
+
+
+Started GET "/customers" for 127.0.0.1 at 2023-05-21 15:47:13 +0700
+Processing by CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/customers/index.html.erb:27
+  Rendered customers/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 637)
+  Rendered shared/_head.html.erb (Duration: 7.3ms | Allocations: 1803)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.7ms | Allocations: 1050)
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 3770)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.4ms | Allocations: 4058)
+
+
+Started GET "/employees" for 127.0.0.1 at 2023-05-21 15:47:14 +0700
+Processing by EmployeesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (0.8ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/views/employees/index.html.erb:27
+  Rendered employees/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 808)
+  Rendered shared/_head.html.erb (Duration: 5.2ms | Allocations: 1802)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.2ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.9ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 3914)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.8ms | Allocations: 4196)
+
+
+Started GET "/customers" for 127.0.0.1 at 2023-05-21 15:47:15 +0700
+Processing by CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/customers/index.html.erb:27
+  Rendered customers/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 601)
+  Rendered shared/_head.html.erb (Duration: 5.5ms | Allocations: 1787)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.3ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 16.3ms | Allocations: 3692)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.3ms | Allocations: 3973)
+
+
+Started GET "/suppliers" for 127.0.0.1 at 2023-05-21 15:47:19 +0700
+Processing by SuppliersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/index.html.erb within layouts/application
+  [1m[36mSupplier Load (0.7ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers"[0m
+  ↳ app/views/suppliers/index.html.erb:31
+  Rendered suppliers/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 831)
+  Rendered shared/_head.html.erb (Duration: 5.7ms | Allocations: 1796)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 4.0ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 3931)
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 0.7ms | Allocations: 4213)
+
+
+Started GET "/products" for 127.0.0.1 at 2023-05-21 15:47:36 +0700
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:30
+  Rendered products/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 844)
+  Rendered shared/_head.html.erb (Duration: 5.4ms | Allocations: 2056)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 29)
+  Rendered shared/_navbar.html.erb (Duration: 4.8ms | Allocations: 1085)
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 4291)
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.5ms | Allocations: 5007)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2023-05-21 15:47:39 +0700
+Processing by ProductsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/_form.html.erb (Duration: 3.3ms | Allocations: 2202)
+  Rendered products/new.html.erb within layouts/application (Duration: 4.0ms | Allocations: 2265)
+  Rendered shared/_head.html.erb (Duration: 5.3ms | Allocations: 1632)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.1ms | Allocations: 1026)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 5203)
+Completed 200 OK in 22ms (Views: 17.0ms | ActiveRecord: 1.3ms | Allocations: 7896)
+
+
+Started POST "/products" for 127.0.0.1 at 2023-05-21 15:48:57 +0700
+Processing by ProductsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "product"=>{"code"=>"01", "product_name"=>"Dress", "describle"=>"party white dress\nMaterial: cotton", "price"=>"185.000", "discount"=>"no discount", "supplier_id"=>"S01"}, "commit"=>"Create Product"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/products_controller.rb:27:in `block in create'
+  [1m[36mSupplier Load (0.6ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/products_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/products_controller.rb:27:in `block in create'
+  Rendering layout layouts/application.html.erb
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/_form.html.erb (Duration: 2.6ms | Allocations: 2522)
+  Rendered products/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 2590)
+  Rendered shared/_head.html.erb (Duration: 5.3ms | Allocations: 1735)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 26)
+  Rendered shared/_navbar.html.erb (Duration: 3.5ms | Allocations: 1054)
+  Rendered layout layouts/application.html.erb (Duration: 15.0ms | Allocations: 5668)
+Completed 422 Unprocessable Entity in 254ms (Views: 16.1ms | ActiveRecord: 0.9ms | Allocations: 17388)
+
+
+Started POST "/products" for 127.0.0.1 at 2023-05-21 15:49:10 +0700
+Processing by ProductsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "product"=>{"code"=>"01", "product_name"=>"Dress", "describle"=>"party white dress\nMaterial: cotton", "price"=>"185.000", "discount"=>"no discount", "supplier_id"=>"01"}, "commit"=>"Create Product"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/products_controller.rb:27:in `block in create'
+  [1m[36mSupplier Load (0.3ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/products_controller.rb:27:in `block in create'
+  [1m[36mProduct Create (12.9ms)[0m  [1m[32mINSERT INTO "products" ("code", "product_name", "describle", "price", "discount", "supplier_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["code", 1], ["product_name", "Dress"], ["describle", "party white dress\nMaterial: cotton"], ["price", "185.000"], ["discount", "no discount"], ["supplier_id", 1], ["created_at", "2023-05-21 08:49:10.522628"], ["updated_at", "2023-05-21 08:49:10.522628"]]
+  ↳ app/controllers/products_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (6.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/products_controller.rb:27:in `block in create'
+Redirected to http://127.0.0.1:3000/products/1
+Completed 302 Found in 31ms (ActiveRecord: 19.4ms | Allocations: 3550)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2023-05-21 15:49:10 +0700
+Processing by ProductsController#show as TURBO_STREAM
+  Parameters: {"id"=>"1"}
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/products_controller.rb:63:in `set_product'
+  Rendering layout layouts/application.html.erb
+  Rendering products/show.html.erb within layouts/application
+  [1m[36mSupplier Load (0.3ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/products/show.html.erb:38
+  Rendered products/show.html.erb within layouts/application (Duration: 31.8ms | Allocations: 1125)
+  Rendered shared/_head.html.erb (Duration: 5.9ms | Allocations: 1798)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 36)
+  Rendered shared/_navbar.html.erb (Duration: 3.4ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 45.2ms | Allocations: 4250)
+Completed 200 OK in 51ms (Views: 46.0ms | ActiveRecord: 0.6ms | Allocations: 5740)
+
+
+Started GET "/products" for 127.0.0.1 at 2023-05-21 15:49:14 +0700
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:30
+  [1m[36mSupplier Load (0.2ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:39
+  Rendered products/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1391)
+  Rendered shared/_head.html.erb (Duration: 5.2ms | Allocations: 1799)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.2ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.9ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 4494)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.5ms | Allocations: 4776)
+
+
+Started GET "/suppliers" for 127.0.0.1 at 2023-05-21 15:49:17 +0700
+Processing by SuppliersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/index.html.erb within layouts/application
+  [1m[36mSupplier Load (0.7ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers"[0m
+  ↳ app/views/suppliers/index.html.erb:31
+  Rendered suppliers/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 831)
+  Rendered shared/_head.html.erb (Duration: 5.3ms | Allocations: 1799)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.1ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 16.4ms | Allocations: 3934)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.7ms | Allocations: 4217)
+
+
+Started GET "/products" for 127.0.0.1 at 2023-05-21 15:49:23 +0700
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:30
+  [1m[36mSupplier Load (0.3ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:39
+  Rendered products/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 1370)
+  Rendered shared/_head.html.erb (Duration: 4.6ms | Allocations: 1800)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 4.3ms | Allocations: 1028)
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 4478)
+Completed 200 OK in 22ms (Views: 20.7ms | ActiveRecord: 0.6ms | Allocations: 4759)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2023-05-21 15:49:31 +0700
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/products_controller.rb:63:in `set_product'
+  Rendering layout layouts/application.html.erb
+  Rendering products/show.html.erb within layouts/application
+  [1m[36mSupplier Load (0.2ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/products/show.html.erb:38
+  Rendered products/show.html.erb within layouts/application (Duration: 2.5ms | Allocations: 793)
+  Rendered shared/_head.html.erb (Duration: 4.5ms | Allocations: 1767)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 4.4ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 15.0ms | Allocations: 3864)
+Completed 200 OK in 19ms (Views: 15.9ms | ActiveRecord: 0.5ms | Allocations: 4607)
+
+
+Started GET "/products" for 127.0.0.1 at 2023-05-21 15:58:52 +0700
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:30
+  [1m[36mSupplier Load (0.4ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:39
+  Rendered products/index.html.erb within layouts/application (Duration: 31.7ms | Allocations: 8030)
+  Rendered layout layouts/application.html.erb (Duration: 32.9ms | Allocations: 8113)
+Completed 500 Internal Server Error in 47ms (ActiveRecord: 1.2ms | Allocations: 8981)
+
+
+  
+ActionView::Template::Error (undefined method `name' for #<Supplier id: 1, sup_code: "S01", supplier_name: "Xuong may Thu Trang", product_name: "dress, T-shirt", address: "164 Dich Vong, Cau Giay, Ha Noi", email: "xuongmaythutrang@gmail.com", pay_method: "chuyen khoan hoac tien mat", discount: "hoa don tren 5 trieu giam 10%", created_at: "2023-05-21 08:19:20.990703000 +0000", updated_at: "2023-05-21 08:19:20.990703000 +0000">):
+    36:               <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400"><%= product.describle %></td>
+    37:               <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400"><%= product.price %></td>
+    38:               <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400"><%= product.discount %></td>
+    39:               <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400"><%= product.supplier.name %></td>
+    40:       
+    41:       
+    42:         <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400"><%= link_to 'Show', product %></td>
+  
+app/views/products/index.html.erb:39
+app/views/products/index.html.erb:31
+app/views/products/index.html.erb:30
+Started GET "/products" for 127.0.0.1 at 2023-05-21 15:59:30 +0700
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:30
+  Rendered products/index.html.erb within layouts/application (Duration: 19.5ms | Allocations: 7229)
+  Rendered layout layouts/application.html.erb (Duration: 20.3ms | Allocations: 7312)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.3ms | Allocations: 8186)
+
+
+  
+ActionView::Template::Error (undefined method `supplier_name' for #<Product id: 1, code: 1, product_name: "Dress", describle: "party white dress\nMaterial: cotton", price: "185.000", discount: "no discount", supplier_id: 1, created_at: "2023-05-21 08:49:10.522628000 +0000", updated_at: "2023-05-21 08:49:10.522628000 +0000">
+Did you mean?  supplier_id
+               supplier_id?
+               supplier_id=):
+    36:               <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400"><%= product.describle %></td>
+    37:               <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400"><%= product.price %></td>
+    38:               <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400"><%= product.discount %></td>
+    39:               <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400"><%= product.supplier_name %></td>
+    40:       
+    41:       
+    42:         <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400"><%= link_to 'Show', product %></td>
+  
+app/views/products/index.html.erb:39
+app/views/products/index.html.erb:31
+app/views/products/index.html.erb:30
+Started GET "/products" for 127.0.0.1 at 2023-05-21 15:59:48 +0700
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:30
+  [1m[36mSupplier Load (0.3ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:39
+  Rendered products/index.html.erb within layouts/application (Duration: 6.9ms | Allocations: 1972)
+  Rendered shared/_head.html.erb (Duration: 6.5ms | Allocations: 2219)
+  Rendered shared/_flash_notice.html.erb (Duration: 1.3ms | Allocations: 159)
+  Rendered shared/_navbar.html.erb (Duration: 19.1ms | Allocations: 1685)
+  Rendered layout layouts/application.html.erb (Duration: 42.7ms | Allocations: 6647)
+Completed 200 OK in 52ms (Views: 50.0ms | ActiveRecord: 0.6ms | Allocations: 7552)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2023-05-21 15:59:52 +0700
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/products_controller.rb:63:in `set_product'
+  Rendering layout layouts/application.html.erb
+  Rendering products/show.html.erb within layouts/application
+  [1m[36mSupplier Load (0.2ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/products/show.html.erb:38
+  Rendered products/show.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1085)
+  Rendered shared/_head.html.erb (Duration: 7.4ms | Allocations: 1797)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.2ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 4186)
+Completed 200 OK in 21ms (Views: 17.7ms | ActiveRecord: 0.6ms | Allocations: 5078)
+
+
+Started GET "/products" for 127.0.0.1 at 2023-05-21 15:59:56 +0700
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:30
+  [1m[36mSupplier Load (0.4ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:39
+  Rendered products/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 1369)
+  Rendered shared/_head.html.erb (Duration: 6.4ms | Allocations: 1790)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.7ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 21.6ms | Allocations: 4463)
+Completed 200 OK in 24ms (Views: 22.5ms | ActiveRecord: 0.7ms | Allocations: 4745)
+
+
+Started GET "/products" for 127.0.0.1 at 2023-05-21 16:01:00 +0700
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:30
+  [1m[36mSupplier Load (0.5ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:39
+  Rendered products/index.html.erb within layouts/application (Duration: 17.1ms | Allocations: 7045)
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 7128)
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 0.8ms | Allocations: 7988)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `_name' for #<ActionView::Base:0x0000000001e000>):
+    37:               <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400"><%= product.price %></td>
+    38:               <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400"><%= product.discount %></td>
+    39:               <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400"><%= product.supplier
+    40:               _name %></td>
+    41:       
+    42:       
+    43:         <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400"><%= link_to 'Show', product %></td>
+  
+app/views/products/index.html.erb:40
+app/views/products/index.html.erb:31
+app/views/products/index.html.erb:30
+Started GET "/products" for 127.0.0.1 at 2023-05-21 16:01:52 +0700
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:30
+  [1m[36mSupplier Load (0.3ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:39
+  Rendered products/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1974)
+  Rendered shared/_head.html.erb (Duration: 5.6ms | Allocations: 2231)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.6ms | Allocations: 159)
+  Rendered shared/_navbar.html.erb (Duration: 6.1ms | Allocations: 1685)
+  Rendered layout layouts/application.html.erb (Duration: 25.6ms | Allocations: 6661)
+Completed 200 OK in 36ms (Views: 33.1ms | ActiveRecord: 0.5ms | Allocations: 7563)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2023-05-21 16:02:00 +0700
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/products_controller.rb:63:in `set_product'
+  Rendering layout layouts/application.html.erb
+  Rendering products/show.html.erb within layouts/application
+  [1m[36mSupplier Load (0.3ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/products/show.html.erb:38
+  Rendered products/show.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1085)
+  Rendered shared/_head.html.erb (Duration: 6.4ms | Allocations: 1794)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.6ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 16.1ms | Allocations: 4183)
+Completed 200 OK in 20ms (Views: 16.7ms | ActiveRecord: 0.6ms | Allocations: 5031)
+
+
+Started GET "/products" for 127.0.0.1 at 2023-05-21 16:02:07 +0700
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:30
+  [1m[36mSupplier Load (0.3ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:39
+  Rendered products/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1369)
+  Rendered shared/_head.html.erb (Duration: 7.1ms | Allocations: 1793)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.3ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 18.8ms | Allocations: 4466)
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.6ms | Allocations: 4748)
+
+
+Started GET "/customers" for 127.0.0.1 at 2023-05-21 16:02:09 +0700
+Processing by CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.5ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/customers/index.html.erb:27
+  Rendered customers/index.html.erb within layouts/application (Duration: 18.4ms | Allocations: 1104)
+  Rendered shared/_head.html.erb (Duration: 8.7ms | Allocations: 2029)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.2ms | Allocations: 28)
+  Rendered shared/_navbar.html.erb (Duration: 6.4ms | Allocations: 1081)
+  Rendered layout layouts/application.html.erb (Duration: 44.3ms | Allocations: 4519)
+Completed 200 OK in 65ms (Views: 60.1ms | ActiveRecord: 0.5ms | Allocations: 5219)
+
+
+Started GET "/employees" for 127.0.0.1 at 2023-05-21 16:02:10 +0700
+Processing by EmployeesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (0.5ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/views/employees/index.html.erb:27
+  Rendered employees/index.html.erb within layouts/application (Duration: 17.4ms | Allocations: 1333)
+  Rendered shared/_head.html.erb (Duration: 10.5ms | Allocations: 2031)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.2ms | Allocations: 28)
+  Rendered shared/_navbar.html.erb (Duration: 5.0ms | Allocations: 1081)
+  Rendered layout layouts/application.html.erb (Duration: 37.2ms | Allocations: 4750)
+Completed 200 OK in 54ms (Views: 50.3ms | ActiveRecord: 0.5ms | Allocations: 5485)
+
+
+Started GET "/customers" for 127.0.0.1 at 2023-05-21 16:02:12 +0700
+Processing by CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/customers/index.html.erb:27
+  Rendered customers/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 601)
+  Rendered shared/_head.html.erb (Duration: 4.9ms | Allocations: 1796)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.1ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 3701)
+Completed 200 OK in 16ms (Views: 13.3ms | ActiveRecord: 0.3ms | Allocations: 4006)
+
+
+Started GET "/orders" for 127.0.0.1 at 2023-05-21 16:02:12 +0700
+Processing by OrdersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.3ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/orders/index.html.erb:33
+  Rendered orders/index.html.erb within layouts/application (Duration: 14.8ms | Allocations: 1265)
+  Rendered shared/_head.html.erb (Duration: 11.6ms | Allocations: 2039)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 29)
+  Rendered shared/_navbar.html.erb (Duration: 3.7ms | Allocations: 1083)
+  Rendered layout layouts/application.html.erb (Duration: 32.6ms | Allocations: 4693)
+Completed 200 OK in 43ms (Views: 40.1ms | ActiveRecord: 0.3ms | Allocations: 5617)
+
+
+Started GET "/payments" for 127.0.0.1 at 2023-05-21 16:02:13 +0700
+Processing by PaymentsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering payments/index.html.erb within layouts/application
+  [1m[36mPayment Load (0.5ms)[0m  [1m[34mSELECT "payments".* FROM "payments"[0m
+  ↳ app/views/payments/index.html.erb:29
+  Rendered payments/index.html.erb within layouts/application (Duration: 14.8ms | Allocations: 1139)
+  Rendered shared/_head.html.erb (Duration: 6.8ms | Allocations: 2020)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 28)
+  Rendered shared/_navbar.html.erb (Duration: 3.7ms | Allocations: 1081)
+  Rendered layout layouts/application.html.erb (Duration: 28.5ms | Allocations: 4545)
+Completed 200 OK in 37ms (Views: 34.8ms | ActiveRecord: 0.5ms | Allocations: 5282)
+
+
+Started GET "/suppliers" for 127.0.0.1 at 2023-05-21 16:04:18 +0700
+Processing by SuppliersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/index.html.erb within layouts/application
+  [1m[36mSupplier Load (0.4ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers"[0m
+  ↳ app/views/suppliers/index.html.erb:31
+  Rendered suppliers/index.html.erb within layouts/application (Duration: 16.9ms | Allocations: 1438)
+  Rendered shared/_head.html.erb (Duration: 5.4ms | Allocations: 2219)
+  Rendered shared/_flash_notice.html.erb (Duration: 1.0ms | Allocations: 159)
+  Rendered shared/_navbar.html.erb (Duration: 4.4ms | Allocations: 1686)
+  Rendered layout layouts/application.html.erb (Duration: 37.5ms | Allocations: 6110)
+Completed 200 OK in 51ms (Views: 47.8ms | ActiveRecord: 0.4ms | Allocations: 7037)
+
+
+Started GET "/suppliers/1" for 127.0.0.1 at 2023-05-21 16:04:51 +0700
+Processing by SuppliersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSupplier Load (0.5ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/suppliers_controller.rb:63:in `set_supplier'
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/show.html.erb within layouts/application
+  Rendered suppliers/show.html.erb within layouts/application (Duration: 13.0ms | Allocations: 458)
+  Rendered shared/_head.html.erb (Duration: 5.6ms | Allocations: 1788)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 4.4ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 25.5ms | Allocations: 3550)
+Completed 200 OK in 31ms (Views: 26.5ms | ActiveRecord: 0.5ms | Allocations: 4416)
+
+
+Started GET "/products" for 127.0.0.1 at 2023-05-21 16:04:57 +0700
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:30
+  [1m[36mSupplier Load (0.3ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:39
+  Rendered products/index.html.erb within layouts/application (Duration: 17.0ms | Allocations: 7724)
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 7807)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.7ms | Allocations: 8479)
+
+
+  
+ActionView::Template::Error (undefined method `code' for #<Supplier id: 1, sup_code: "S01", supplier_name: "Xuong may Thu Trang", product_name: "dress, T-shirt", address: "164 Dich Vong, Cau Giay, Ha Noi", email: "xuongmaythutrang@gmail.com", pay_method: "chuyen khoan hoac tien mat", discount: "hoa don tren 5 trieu giam 10%", created_at: "2023-05-21 08:19:20.990703000 +0000", updated_at: "2023-05-21 08:19:20.990703000 +0000">):
+    36:               <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400"><%= product.describle %></td>
+    37:               <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400"><%= product.price %></td>
+    38:               <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400"><%= product.discount %></td>
+    39:               <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400"><%= product.supplier.code %></td>
+    40:      
+    41:       
+    42:       
+  
+app/views/products/index.html.erb:39
+app/views/products/index.html.erb:31
+app/views/products/index.html.erb:30
+Started GET "/products" for 127.0.0.1 at 2023-05-21 16:05:18 +0700
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:30
+  [1m[36mSupplier Load (0.2ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:39
+  Rendered products/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 1973)
+  Rendered shared/_head.html.erb (Duration: 6.0ms | Allocations: 2225)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.6ms | Allocations: 159)
+  Rendered shared/_navbar.html.erb (Duration: 4.0ms | Allocations: 1685)
+  Rendered layout layouts/application.html.erb (Duration: 24.3ms | Allocations: 6650)
+Completed 200 OK in 37ms (Views: 33.6ms | ActiveRecord: 0.5ms | Allocations: 7552)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2023-05-21 16:05:27 +0700
+Processing by ProductsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/_form.html.erb (Duration: 16.3ms | Allocations: 2721)
+  Rendered products/new.html.erb within layouts/application (Duration: 18.6ms | Allocations: 2938)
+  Rendered shared/_head.html.erb (Duration: 4.8ms | Allocations: 1631)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.3ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 29.3ms | Allocations: 5873)
+Completed 200 OK in 33ms (Views: 30.3ms | ActiveRecord: 0.0ms | Allocations: 6236)
+
+
+Started GET "/suppliers" for 127.0.0.1 at 2023-05-21 16:05:41 +0700
+Processing by SuppliersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/index.html.erb within layouts/application
+  [1m[36mSupplier Load (0.3ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers"[0m
+  ↳ app/views/suppliers/index.html.erb:31
+  Rendered suppliers/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1389)
+  Rendered shared/_head.html.erb (Duration: 5.8ms | Allocations: 2016)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 28)
+  Rendered shared/_navbar.html.erb (Duration: 3.8ms | Allocations: 1081)
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 4791)
+Completed 200 OK in 27ms (Views: 24.5ms | ActiveRecord: 0.3ms | Allocations: 5490)
+
+
+Started GET "/products" for 127.0.0.1 at 2023-05-21 16:06:01 +0700
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:30
+  [1m[36mSupplier Load (0.3ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:39
+  Rendered products/index.html.erb within layouts/application (Duration: 6.1ms | Allocations: 1972)
+  Rendered shared/_head.html.erb (Duration: 6.5ms | Allocations: 2227)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.6ms | Allocations: 159)
+  Rendered shared/_navbar.html.erb (Duration: 4.6ms | Allocations: 1681)
+  Rendered layout layouts/application.html.erb (Duration: 26.8ms | Allocations: 6647)
+Completed 200 OK in 53ms (Views: 48.2ms | ActiveRecord: 0.5ms | Allocations: 7573)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2023-05-21 16:06:13 +0700
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/products_controller.rb:63:in `set_product'
+  Rendering layout layouts/application.html.erb
+  Rendering products/show.html.erb within layouts/application
+  [1m[36mSupplier Load (0.2ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/products/show.html.erb:38
+  Rendered products/show.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1085)
+  Rendered shared/_head.html.erb (Duration: 4.3ms | Allocations: 1800)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 2.9ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 4189)
+Completed 200 OK in 20ms (Views: 15.3ms | ActiveRecord: 0.5ms | Allocations: 5037)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2023-05-21 16:06:33 +0700
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/products_controller.rb:63:in `set_product'
+  Rendering layout layouts/application.html.erb
+  Rendering products/show.html.erb within layouts/application
+  [1m[36mSupplier Load (0.3ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/products/show.html.erb:38
+  Rendered products/show.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1306)
+  Rendered shared/_head.html.erb (Duration: 6.6ms | Allocations: 2214)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.6ms | Allocations: 159)
+  Rendered shared/_navbar.html.erb (Duration: 6.5ms | Allocations: 1681)
+  Rendered layout layouts/application.html.erb (Duration: 25.0ms | Allocations: 5968)
+Completed 200 OK in 39ms (Views: 34.6ms | ActiveRecord: 0.6ms | Allocations: 7323)
+
+
+Started GET "/products" for 127.0.0.1 at 2023-05-21 16:06:38 +0700
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:30
+  [1m[36mSupplier Load (0.4ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:39
+  Rendered products/index.html.erb within layouts/application (Duration: 6.5ms | Allocations: 1751)
+  Rendered shared/_head.html.erb (Duration: 6.7ms | Allocations: 1798)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 4.2ms | Allocations: 1028)
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 4857)
+Completed 200 OK in 25ms (Views: 21.7ms | ActiveRecord: 0.7ms | Allocations: 5235)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2023-05-21 16:06:41 +0700
+Processing by ProductsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/_form.html.erb (Duration: 15.3ms | Allocations: 2703)
+  Rendered products/new.html.erb within layouts/application (Duration: 17.5ms | Allocations: 2920)
+  Rendered shared/_head.html.erb (Duration: 4.2ms | Allocations: 1631)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.6ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 29.4ms | Allocations: 5855)
+Completed 200 OK in 33ms (Views: 30.6ms | ActiveRecord: 0.0ms | Allocations: 6199)
+
+
+Started POST "/products" for 127.0.0.1 at 2023-05-21 16:07:35 +0700
+Processing by ProductsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "product"=>{"code"=>"2", "product_name"=>"T-shirt", "describle"=>"cotton material\n3 colors: white, black, pink", "price"=>"135.000", "discount"=>"5%", "supplier_id"=>"02"}, "commit"=>"Create Product"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/products_controller.rb:27:in `block in create'
+  [1m[36mSupplier Load (0.3ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/products_controller.rb:27:in `block in create'
+  [1m[36mProduct Create (12.4ms)[0m  [1m[32mINSERT INTO "products" ("code", "product_name", "describle", "price", "discount", "supplier_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["code", 2], ["product_name", "T-shirt"], ["describle", "cotton material\n3 colors: white, black, pink"], ["price", "135.000"], ["discount", "5%"], ["supplier_id", 2], ["created_at", "2023-05-21 09:07:35.853114"], ["updated_at", "2023-05-21 09:07:35.853114"]]
+  ↳ app/controllers/products_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (5.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/products_controller.rb:27:in `block in create'
+Redirected to http://127.0.0.1:3000/products/2
+Completed 302 Found in 29ms (ActiveRecord: 18.5ms | Allocations: 3384)
+
+
+Started GET "/products/2" for 127.0.0.1 at 2023-05-21 16:07:35 +0700
+Processing by ProductsController#show as TURBO_STREAM
+  Parameters: {"id"=>"2"}
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/products_controller.rb:63:in `set_product'
+  Rendering layout layouts/application.html.erb
+  Rendering products/show.html.erb within layouts/application
+  [1m[36mSupplier Load (0.2ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/products/show.html.erb:38
+  Rendered products/show.html.erb within layouts/application (Duration: 2.7ms | Allocations: 792)
+  Rendered shared/_head.html.erb (Duration: 4.8ms | Allocations: 1798)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 36)
+  Rendered shared/_navbar.html.erb (Duration: 3.9ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 3956)
+Completed 200 OK in 20ms (Views: 16.3ms | ActiveRecord: 0.8ms | Allocations: 4748)
+
+
+Started GET "/products" for 127.0.0.1 at 2023-05-21 16:07:39 +0700
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:30
+  [1m[36mSupplier Load (0.2ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:39
+  [1m[36mSupplier Load (0.3ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:39
+  Rendered products/index.html.erb within layouts/application (Duration: 7.9ms | Allocations: 2131)
+  Rendered shared/_head.html.erb (Duration: 5.2ms | Allocations: 1790)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 4.1ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 20.8ms | Allocations: 5225)
+Completed 200 OK in 22ms (Views: 21.2ms | ActiveRecord: 0.8ms | Allocations: 5506)
+
+
+Started GET "/orders" for 127.0.0.1 at 2023-05-21 16:07:47 +0700
+Processing by OrdersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.3ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/orders/index.html.erb:33
+  Rendered orders/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1158)
+  Rendered shared/_head.html.erb (Duration: 6.1ms | Allocations: 2029)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 28)
+  Rendered shared/_navbar.html.erb (Duration: 4.3ms | Allocations: 1081)
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 4573)
+Completed 200 OK in 27ms (Views: 24.1ms | ActiveRecord: 0.3ms | Allocations: 5273)
+
+
+Started GET "/orders/new" for 127.0.0.1 at 2023-05-21 16:07:55 +0700
+Processing by OrdersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (Duration: 15.0ms | Allocations: 3659)
+  Rendered orders/new.html.erb within layouts/application (Duration: 17.6ms | Allocations: 3876)
+  Rendered shared/_head.html.erb (Duration: 4.7ms | Allocations: 1634)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.4ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 27.9ms | Allocations: 6814)
+Completed 200 OK in 35ms (Views: 28.9ms | ActiveRecord: 0.9ms | Allocations: 10237)
+
+
+Started GET "/customers" for 127.0.0.1 at 2023-05-21 16:08:35 +0700
+Processing by CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/customers/index.html.erb:27
+  Rendered customers/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1067)
+  Rendered shared/_head.html.erb (Duration: 5.3ms | Allocations: 2030)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 28)
+  Rendered shared/_navbar.html.erb (Duration: 6.8ms | Allocations: 1085)
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 4487)
+Completed 200 OK in 29ms (Views: 26.7ms | ActiveRecord: 0.2ms | Allocations: 5188)
+
+
+Started GET "/customers/new" for 127.0.0.1 at 2023-05-21 16:08:36 +0700
+Processing by CustomersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customers/new.html.erb within layouts/application
+  Rendered customers/_form.html.erb (Duration: 14.7ms | Allocations: 2175)
+  Rendered customers/new.html.erb within layouts/application (Duration: 17.1ms | Allocations: 2392)
+  Rendered shared/_head.html.erb (Duration: 6.2ms | Allocations: 1631)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.7ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 29.8ms | Allocations: 5327)
+Completed 200 OK in 33ms (Views: 31.0ms | ActiveRecord: 0.0ms | Allocations: 5705)
+
+
+Started POST "/customers" for 127.0.0.1 at 2023-05-21 16:09:14 +0700
+Processing by CustomersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "customer"=>{"code"=>"01", "name"=>"Vu Dang Trung Dung", "address"=>"12 Chinh Kinh, Nhan Chinh, Thanh Xuan, Ha Noi", "phone"=>"0348671470"}, "commit"=>"Create Customer"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/customers_controller.rb:27:in `block in create'
+  [1m[36mCustomer Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "customers" WHERE "customers"."code" = ? LIMIT ?[0m  [["code", "01"], ["LIMIT", 1]]
+  ↳ app/controllers/customers_controller.rb:27:in `block in create'
+  [1m[36mCustomer Create (1.0ms)[0m  [1m[32mINSERT INTO "customers" ("code", "name", "address", "phone", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["code", "01"], ["name", "Vu Dang Trung Dung"], ["address", "12 Chinh Kinh, Nhan Chinh, Thanh Xuan, Ha Noi"], ["phone", 348671470], ["created_at", "2023-05-21 09:09:15.051000"], ["updated_at", "2023-05-21 09:09:15.051000"]]
+  ↳ app/controllers/customers_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (4.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/customers_controller.rb:27:in `block in create'
+Redirected to http://127.0.0.1:3000/customers/1
+Completed 302 Found in 28ms (ActiveRecord: 6.1ms | Allocations: 3491)
+
+
+Started GET "/customers/1" for 127.0.0.1 at 2023-05-21 16:09:15 +0700
+Processing by CustomersController#show as TURBO_STREAM
+  Parameters: {"id"=>"1"}
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/customers_controller.rb:63:in `set_customer'
+  Rendering layout layouts/application.html.erb
+  Rendering customers/show.html.erb within layouts/application
+  Rendered customers/show.html.erb within layouts/application (Duration: 17.3ms | Allocations: 404)
+  Rendered shared/_head.html.erb (Duration: 5.3ms | Allocations: 1807)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 36)
+  Rendered shared/_navbar.html.erb (Duration: 3.3ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 29.2ms | Allocations: 3538)
+Completed 200 OK in 36ms (Views: 31.1ms | ActiveRecord: 0.4ms | Allocations: 4991)
+
+
+Started GET "/orders" for 127.0.0.1 at 2023-05-21 16:09:20 +0700
+Processing by OrdersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.3ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/orders/index.html.erb:33
+  Rendered orders/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 601)
+  Rendered shared/_head.html.erb (Duration: 4.3ms | Allocations: 1805)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.3ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 26.4ms | Allocations: 3710)
+Completed 200 OK in 28ms (Views: 27.6ms | ActiveRecord: 0.3ms | Allocations: 3993)
+
+
+Started GET "/orders/new" for 127.0.0.1 at 2023-05-21 16:09:22 +0700
+Processing by OrdersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (Duration: 2.9ms | Allocations: 2798)
+  Rendered orders/new.html.erb within layouts/application (Duration: 3.6ms | Allocations: 2859)
+  Rendered shared/_head.html.erb (Duration: 4.1ms | Allocations: 1635)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.4ms | Allocations: 1028)
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 5802)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms | Allocations: 6093)
+
+
+Started POST "/orders" for 127.0.0.1 at 2023-05-21 16:10:01 +0700
+Processing by OrdersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "order"=>{"order_code"=>"01", "bill_no"=>"01", "product_name"=>"Dress", "quantity"=>"1", "price"=>"185.000", "discount"=>"no discount", "date"=>"2023-05-21T16:09", "customer_code"=>"01", "customer_id"=>"Vu Dang Trung Dung"}, "commit"=>"Create Order"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/orders_controller.rb:27:in `block in create'
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:27:in `block in create'
+  [1m[36mOrder Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "orders" WHERE "orders"."order_code" = ? LIMIT ?[0m  [["order_code", 1], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/orders_controller.rb:27:in `block in create'
+  Rendering layout layouts/application.html.erb
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (Duration: 3.2ms | Allocations: 3182)
+  Rendered orders/new.html.erb within layouts/application (Duration: 4.4ms | Allocations: 3243)
+  Rendered shared/_head.html.erb (Duration: 5.3ms | Allocations: 1627)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.3ms | Allocations: 1028)
+  Rendered layout layouts/application.html.erb (Duration: 16.1ms | Allocations: 6178)
+Completed 422 Unprocessable Entity in 41ms (Views: 17.3ms | ActiveRecord: 0.6ms | Allocations: 11631)
+
+
+Started POST "/orders" for 127.0.0.1 at 2023-05-21 16:10:13 +0700
+Processing by OrdersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "order"=>{"order_code"=>"01", "bill_no"=>"01", "product_name"=>"Dress", "quantity"=>"1", "price"=>"185.000", "discount"=>"no discount", "date"=>"2023-05-21T16:09", "customer_code"=>"01", "customer_id"=>"Vu Trung Dung"}, "commit"=>"Create Order"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/orders_controller.rb:27:in `block in create'
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:27:in `block in create'
+  [1m[36mOrder Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "orders" WHERE "orders"."order_code" = ? LIMIT ?[0m  [["order_code", 1], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/orders_controller.rb:27:in `block in create'
+  Rendering layout layouts/application.html.erb
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (Duration: 3.3ms | Allocations: 3104)
+  Rendered orders/new.html.erb within layouts/application (Duration: 3.9ms | Allocations: 3165)
+  Rendered shared/_head.html.erb (Duration: 4.8ms | Allocations: 1623)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.2ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 6092)
+Completed 422 Unprocessable Entity in 28ms (Views: 16.7ms | ActiveRecord: 0.6ms | Allocations: 9979)
+
+
+Started GET "/customers" for 127.0.0.1 at 2023-05-21 16:10:15 +0700
+Processing by CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/customers/index.html.erb:27
+  Rendered customers/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 726)
+  Rendered shared/_head.html.erb (Duration: 6.9ms | Allocations: 1805)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.2ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 3835)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.2ms | Allocations: 4117)
+
+
+Started GET "/orders" for 127.0.0.1 at 2023-05-21 16:10:19 +0700
+Processing by OrdersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.3ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/orders/index.html.erb:33
+  Rendered orders/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 601)
+  Rendered shared/_head.html.erb (Duration: 8.4ms | Allocations: 1775)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.2ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 4.8ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 3680)
+Completed 200 OK in 24ms (Views: 23.4ms | ActiveRecord: 0.3ms | Allocations: 3961)
+
+
+Started GET "/orders/new" for 127.0.0.1 at 2023-05-21 16:10:20 +0700
+Processing by OrdersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (Duration: 3.1ms | Allocations: 2793)
+  Rendered orders/new.html.erb within layouts/application (Duration: 3.6ms | Allocations: 2854)
+  Rendered shared/_head.html.erb (Duration: 4.3ms | Allocations: 1631)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 2.9ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 13.4ms | Allocations: 5789)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 6079)
+
+
+Started POST "/orders" for 127.0.0.1 at 2023-05-21 16:10:56 +0700
+Processing by OrdersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "order"=>{"order_code"=>"01", "bill_no"=>"01", "product_name"=>"Dress", "quantity"=>"1", "price"=>"185.000", "discount"=>"no discount", "date"=>"2023-05-21T16:10", "customer_code"=>"01", "customer_id"=>"Vu Dang Trung Dung"}, "commit"=>"Create Order"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/orders_controller.rb:27:in `block in create'
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:27:in `block in create'
+  [1m[36mOrder Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "orders" WHERE "orders"."order_code" = ? LIMIT ?[0m  [["order_code", 1], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/orders_controller.rb:27:in `block in create'
+  Rendering layout layouts/application.html.erb
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (Duration: 3.3ms | Allocations: 3104)
+  Rendered orders/new.html.erb within layouts/application (Duration: 4.0ms | Allocations: 3165)
+  Rendered shared/_head.html.erb (Duration: 5.3ms | Allocations: 1627)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.4ms | Allocations: 1027)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 6099)
+Completed 422 Unprocessable Entity in 27ms (Views: 17.0ms | ActiveRecord: 0.6ms | Allocations: 9982)
+
+
+Started POST "/orders" for 127.0.0.1 at 2023-05-21 16:11:05 +0700
+Processing by OrdersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "order"=>{"order_code"=>"01", "bill_no"=>"01", "product_name"=>"Dress", "quantity"=>"1", "price"=>"185.000", "discount"=>"no discount", "date"=>"2023-05-21T16:10", "customer_code"=>"01", "customer_id"=>"01"}, "commit"=>"Create Order"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/orders_controller.rb:27:in `block in create'
+  [1m[36mCustomer Load (0.6ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:27:in `block in create'
+  [1m[36mOrder Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "orders" WHERE "orders"."order_code" = ? LIMIT ?[0m  [["order_code", 1], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:27:in `block in create'
+  [1m[36mOrder Create (12.2ms)[0m  [1m[32mINSERT INTO "orders" ("order_code", "bill_no", "product_name", "quantity", "price", "discount", "date", "customer_code", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["order_code", 1], ["bill_no", 1], ["product_name", "Dress"], ["quantity", 1], ["price", "185.000"], ["discount", "no discount"], ["date", "2023-05-21 16:10:00"], ["customer_code", "01"], ["customer_id", 1], ["created_at", "2023-05-21 09:11:05.465365"], ["updated_at", "2023-05-21 09:11:05.465365"]]
+  ↳ app/controllers/orders_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (4.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/orders_controller.rb:27:in `block in create'
+Redirected to http://127.0.0.1:3000/orders/1
+Completed 302 Found in 32ms (ActiveRecord: 17.7ms | Allocations: 4192)
+
+
+Started GET "/orders/1" for 127.0.0.1 at 2023-05-21 16:11:05 +0700
+Processing by OrdersController#show as TURBO_STREAM
+  Parameters: {"id"=>"1"}
+  [1m[36mOrder Load (1.0ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:63:in `set_order'
+  Rendering layout layouts/application.html.erb
+  Rendering orders/show.html.erb within layouts/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/orders/show.html.erb:50
+  Rendered orders/show.html.erb within layouts/application (Duration: 33.8ms | Allocations: 1184)
+  Rendered shared/_head.html.erb (Duration: 5.8ms | Allocations: 1801)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.2ms | Allocations: 35)
+  Rendered shared/_navbar.html.erb (Duration: 5.7ms | Allocations: 1025)
+  Rendered layout layouts/application.html.erb (Duration: 48.5ms | Allocations: 4312)
+Completed 200 OK in 56ms (Views: 49.3ms | ActiveRecord: 1.3ms | Allocations: 5766)
+
+
+Started GET "/orders" for 127.0.0.1 at 2023-05-21 16:12:09 +0700
+Processing by OrdersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.3ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/orders/index.html.erb:33
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/orders/index.html.erb:45
+  Rendered orders/index.html.erb within layouts/application (Duration: 13.5ms | Allocations: 7514)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 7597)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.5ms | Allocations: 8464)
+
+
+  
+ActionView::Template::Error (undefined method `customer_code' for #<Customer id: 1, code: "01", name: "Vu Dang Trung Dung", address: "12 Chinh Kinh, Nhan Chinh, Thanh Xuan, Ha Noi", phone: 348671470, created_at: "2023-05-21 09:09:15.051000000 +0000", updated_at: "2023-05-21 09:09:15.051000000 +0000">):
+    42:               <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400"><%= order.discount %></td>
+    43:               <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400"><%= order.date %></td>
+    44:               <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400"><%= order.customer_code %></td>
+    45:               <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400"><%= order.customer.customer_code %></td>
+    46:       
+    47:       
+    48:         <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400"><%= link_to 'Show', order %></td>
+  
+app/views/orders/index.html.erb:45
+app/views/orders/index.html.erb:34
+app/views/orders/index.html.erb:33
+Started GET "/orders" for 127.0.0.1 at 2023-05-21 16:12:28 +0700
+Processing by OrdersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.3ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/orders/index.html.erb:33
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/orders/index.html.erb:45
+  Rendered orders/index.html.erb within layouts/application (Duration: 8.3ms | Allocations: 2062)
+  Rendered shared/_head.html.erb (Duration: 5.5ms | Allocations: 2219)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.9ms | Allocations: 159)
+  Rendered shared/_navbar.html.erb (Duration: 4.3ms | Allocations: 1685)
+  Rendered layout layouts/application.html.erb (Duration: 26.3ms | Allocations: 6733)
+Completed 200 OK in 37ms (Views: 34.2ms | ActiveRecord: 0.6ms | Allocations: 7635)
+
+
+Started GET "/orders/1" for 127.0.0.1 at 2023-05-21 16:13:04 +0700
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mOrder Load (0.3ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:63:in `set_order'
+  Rendering layout layouts/application.html.erb
+  Rendering orders/show.html.erb within layouts/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/orders/show.html.erb:50
+  Rendered orders/show.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1156)
+  Rendered shared/_head.html.erb (Duration: 5.5ms | Allocations: 1797)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 4.3ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 17.5ms | Allocations: 4257)
+Completed 200 OK in 24ms (Views: 19.2ms | ActiveRecord: 0.6ms | Allocations: 5106)
+
+
+Started GET "/orders/1" for 127.0.0.1 at 2023-05-21 16:13:24 +0700
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mOrder Load (0.4ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:63:in `set_order'
+  Rendering layout layouts/application.html.erb
+  Rendering orders/show.html.erb within layouts/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/orders/show.html.erb:50
+  Rendered orders/show.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1403)
+  Rendered shared/_head.html.erb (Duration: 5.3ms | Allocations: 2223)
+  Rendered shared/_flash_notice.html.erb (Duration: 1.0ms | Allocations: 159)
+  Rendered shared/_navbar.html.erb (Duration: 4.5ms | Allocations: 1681)
+  Rendered layout layouts/application.html.erb (Duration: 24.8ms | Allocations: 6074)
+Completed 200 OK in 37ms (Views: 32.8ms | ActiveRecord: 0.7ms | Allocations: 7425)
+
+
+Started GET "/payments" for 127.0.0.1 at 2023-05-21 16:13:27 +0700
+Processing by PaymentsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering payments/index.html.erb within layouts/application
+  [1m[36mPayment Load (0.2ms)[0m  [1m[34mSELECT "payments".* FROM "payments"[0m
+  ↳ app/views/payments/index.html.erb:29
+  Rendered payments/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1101)
+  Rendered shared/_head.html.erb (Duration: 8.2ms | Allocations: 2030)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 28)
+  Rendered shared/_navbar.html.erb (Duration: 3.5ms | Allocations: 1085)
+  Rendered layout layouts/application.html.erb (Duration: 17.4ms | Allocations: 4521)
+Completed 200 OK in 31ms (Views: 23.6ms | ActiveRecord: 0.2ms | Allocations: 5240)
+
+
+Started GET "/payments/new" for 127.0.0.1 at 2023-05-21 16:13:30 +0700
+Processing by PaymentsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering payments/new.html.erb within layouts/application
+  Rendered payments/_form.html.erb (Duration: 15.5ms | Allocations: 2486)
+  Rendered payments/new.html.erb within layouts/application (Duration: 17.8ms | Allocations: 2703)
+  Rendered shared/_head.html.erb (Duration: 4.6ms | Allocations: 1631)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.4ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 28.5ms | Allocations: 5638)
+Completed 200 OK in 36ms (Views: 30.1ms | ActiveRecord: 1.2ms | Allocations: 8181)
+
+
+Started POST "/payments" for 127.0.0.1 at 2023-05-21 16:13:48 +0700
+Processing by PaymentsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "payment"=>{"bill_no"=>"01", "amount"=>"185.000", "pay_type"=>"Chuyen khoan", "date"=>"2023-05-21T16:13", "customer_id"=>"01"}, "commit"=>"Create Payment"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/payments_controller.rb:27:in `block in create'
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/payments_controller.rb:27:in `block in create'
+  [1m[36mPayment Create (12.0ms)[0m  [1m[32mINSERT INTO "payments" ("bill_no", "amount", "pay_type", "date", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["bill_no", 1], ["amount", "185.000"], ["pay_type", "Chuyen khoan"], ["date", "2023-05-21 16:13:00"], ["customer_id", 1], ["created_at", "2023-05-21 09:13:48.233177"], ["updated_at", "2023-05-21 09:13:48.233177"]]
+  ↳ app/controllers/payments_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (5.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/payments_controller.rb:27:in `block in create'
+Redirected to http://127.0.0.1:3000/payments/1
+Completed 302 Found in 32ms (ActiveRecord: 17.9ms | Allocations: 4954)
+
+
+Started GET "/payments/1" for 127.0.0.1 at 2023-05-21 16:13:48 +0700
+Processing by PaymentsController#show as TURBO_STREAM
+  Parameters: {"id"=>"1"}
+  [1m[36mPayment Load (0.3ms)[0m  [1m[34mSELECT "payments".* FROM "payments" WHERE "payments"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/payments_controller.rb:63:in `set_payment'
+  Rendering layout layouts/application.html.erb
+  Rendering payments/show.html.erb within layouts/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/payments/show.html.erb:34
+  Rendered payments/show.html.erb within layouts/application (Duration: 40.3ms | Allocations: 1094)
+  Rendered shared/_head.html.erb (Duration: 4.8ms | Allocations: 1810)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 36)
+  Rendered shared/_navbar.html.erb (Duration: 3.1ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 52.3ms | Allocations: 4270)
+Completed 200 OK in 58ms (Views: 53.1ms | ActiveRecord: 0.6ms | Allocations: 5774)
+
+
+Started GET "/payments/1" for 127.0.0.1 at 2023-05-21 16:14:23 +0700
+Processing by PaymentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPayment Load (0.4ms)[0m  [1m[34mSELECT "payments".* FROM "payments" WHERE "payments"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/payments_controller.rb:63:in `set_payment'
+  Rendering layout layouts/application.html.erb
+  Rendering payments/show.html.erb within layouts/application
+  [1m[36mCustomer Load (1.0ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/payments/show.html.erb:34
+  Rendered payments/show.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1327)
+  Rendered shared/_head.html.erb (Duration: 5.7ms | Allocations: 2232)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.6ms | Allocations: 159)
+  Rendered shared/_navbar.html.erb (Duration: 5.1ms | Allocations: 1681)
+  Rendered layout layouts/application.html.erb (Duration: 22.7ms | Allocations: 6007)
+Completed 200 OK in 34ms (Views: 28.9ms | ActiveRecord: 1.4ms | Allocations: 7355)
+
+
+Started GET "/payments" for 127.0.0.1 at 2023-05-21 16:14:25 +0700
+Processing by PaymentsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering payments/index.html.erb within layouts/application
+  [1m[36mPayment Load (0.3ms)[0m  [1m[34mSELECT "payments".* FROM "payments"[0m
+  ↳ app/views/payments/index.html.erb:29
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/payments/index.html.erb:37
+  Rendered payments/index.html.erb within layouts/application (Duration: 6.7ms | Allocations: 1745)
+  Rendered shared/_head.html.erb (Duration: 6.4ms | Allocations: 1800)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 4.8ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 20.2ms | Allocations: 4849)
+Completed 200 OK in 25ms (Views: 21.1ms | ActiveRecord: 0.6ms | Allocations: 5227)
+
+
+Started GET "/products" for 127.0.0.1 at 2023-05-21 16:14:38 +0700
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:30
+  [1m[36mSupplier Load (0.2ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:39
+  [1m[36mSupplier Load (0.3ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:39
+  Rendered products/index.html.erb within layouts/application (Duration: 10.2ms | Allocations: 2736)
+  Rendered shared/_head.html.erb (Duration: 5.8ms | Allocations: 2030)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 28)
+  Rendered shared/_navbar.html.erb (Duration: 3.6ms | Allocations: 1076)
+  Rendered layout layouts/application.html.erb (Duration: 22.5ms | Allocations: 6147)
+Completed 200 OK in 34ms (Views: 30.0ms | ActiveRecord: 0.9ms | Allocations: 6846)
+
+
+Started GET "/payments" for 127.0.0.1 at 2023-05-21 16:14:39 +0700
+Processing by PaymentsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering payments/index.html.erb within layouts/application
+  [1m[36mPayment Load (0.3ms)[0m  [1m[34mSELECT "payments".* FROM "payments"[0m
+  ↳ app/views/payments/index.html.erb:29
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/payments/index.html.erb:37
+  Rendered payments/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 1405)
+  Rendered shared/_head.html.erb (Duration: 5.9ms | Allocations: 1772)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.3ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 4481)
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.6ms | Allocations: 4782)
+
+
+Started GET "/orders" for 127.0.0.1 at 2023-05-21 16:14:40 +0700
+Processing by OrdersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.4ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/orders/index.html.erb:33
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/orders/index.html.erb:45
+  Rendered orders/index.html.erb within layouts/application (Duration: 9.1ms | Allocations: 2061)
+  Rendered shared/_head.html.erb (Duration: 5.1ms | Allocations: 2025)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 28)
+  Rendered shared/_navbar.html.erb (Duration: 5.4ms | Allocations: 1080)
+  Rendered layout layouts/application.html.erb (Duration: 22.3ms | Allocations: 5471)
+Completed 200 OK in 31ms (Views: 28.6ms | ActiveRecord: 0.8ms | Allocations: 6185)
+
+
+Started GET "/customers" for 127.0.0.1 at 2023-05-21 16:14:40 +0700
+Processing by CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/customers/index.html.erb:27
+  Rendered customers/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1202)
+  Rendered shared/_head.html.erb (Duration: 8.2ms | Allocations: 2022)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 28)
+  Rendered shared/_navbar.html.erb (Duration: 3.5ms | Allocations: 1081)
+  Rendered layout layouts/application.html.erb (Duration: 18.8ms | Allocations: 4610)
+Completed 200 OK in 31ms (Views: 27.6ms | ActiveRecord: 0.3ms | Allocations: 5341)
+
+
+Started GET "/employees" for 127.0.0.1 at 2023-05-21 16:14:41 +0700
+Processing by EmployeesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (0.8ms)[0m  [1m[34mSELECT "employees".* FROM "employees"[0m
+  ↳ app/views/employees/index.html.erb:27
+  Rendered employees/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 1297)
+  Rendered shared/_head.html.erb (Duration: 4.9ms | Allocations: 2022)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 28)
+  Rendered shared/_navbar.html.erb (Duration: 10.4ms | Allocations: 1082)
+  Rendered layout layouts/application.html.erb (Duration: 24.3ms | Allocations: 4706)
+Completed 200 OK in 33ms (Views: 30.1ms | ActiveRecord: 0.8ms | Allocations: 5442)
+
+
+Started GET "/payments" for 127.0.0.1 at 2023-05-21 16:14:47 +0700
+Processing by PaymentsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering payments/index.html.erb within layouts/application
+  [1m[36mPayment Load (0.3ms)[0m  [1m[34mSELECT "payments".* FROM "payments"[0m
+  ↳ app/views/payments/index.html.erb:29
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/payments/index.html.erb:37
+  Rendered payments/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 1455)
+  Rendered shared/_head.html.erb (Duration: 7.5ms | Allocations: 1794)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 3.3ms | Allocations: 1028)
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 4557)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.5ms | Allocations: 4861)
+
+
+Started GET "/products" for 127.0.0.1 at 2023-05-21 16:14:48 +0700
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:30
+  [1m[36mSupplier Load (0.3ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:39
+  [1m[36mSupplier Load (0.3ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" WHERE "suppliers"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/products/index.html.erb:39
+  Rendered products/index.html.erb within layouts/application (Duration: 9.3ms | Allocations: 2131)
+  Rendered shared/_head.html.erb (Duration: 5.2ms | Allocations: 1787)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 5.5ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 24.0ms | Allocations: 5222)
+Completed 200 OK in 26ms (Views: 24.3ms | ActiveRecord: 0.9ms | Allocations: 5506)
+
+
+Started GET "/suppliers" for 127.0.0.1 at 2023-05-21 16:14:49 +0700
+Processing by SuppliersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering suppliers/index.html.erb within layouts/application
+  [1m[36mSupplier Load (0.3ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers"[0m
+  ↳ app/views/suppliers/index.html.erb:31
+  Rendered suppliers/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1394)
+  Rendered shared/_head.html.erb (Duration: 5.7ms | Allocations: 2040)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 28)
+  Rendered shared/_navbar.html.erb (Duration: 3.1ms | Allocations: 1081)
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 4820)
+Completed 200 OK in 24ms (Views: 21.9ms | ActiveRecord: 0.3ms | Allocations: 5534)
+
+
+Started GET "/" for 127.0.0.1 at 2023-05-21 16:15:48 +0700
+Processing by CustomersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/views/customers/index.html.erb:27
+  Rendered customers/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 705)
+  Rendered shared/_head.html.erb (Duration: 36.6ms | Allocations: 1778)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered shared/_navbar.html.erb (Duration: 9.7ms | Allocations: 1024)
+  Rendered layout layouts/application.html.erb (Duration: 54.6ms | Allocations: 3787)
+Completed 200 OK in 57ms (Views: 56.6ms | ActiveRecord: 0.3ms | Allocations: 4090)
+
+
+Started GET "/admin/employee" for ::1 at 2023-05-21 16:17:33 +0700
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"employee"}
+  Rendering layout C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/application.html.erb
+  Rendering C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/rails_admin/main/index.html.erb within layouts/rails_admin/application
+  [1m[36mEmployee Load (0.3ms)[0m  [1m[34mSELECT "employees".* FROM "employees" ORDER BY employees.id desc LIMIT ? OFFSET ?[0m  [["LIMIT", 20], ["OFFSET", 0]]
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/rails_admin/main/index.html.erb within layouts/rails_admin/application (Duration: 272.5ms | Allocations: 18286)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/_head.html.erb (Duration: 83.5ms | Allocations: 23673)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/_secondary_navigation.html.erb (Duration: 29.8ms | Allocations: 699)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/_navigation.html.erb (Duration: 40.2ms | Allocations: 1100)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/_sidebar_navigation.html.erb (Duration: 71.2ms | Allocations: 5442)
+  Rendering C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/content.html.erb
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/content.html.erb (Duration: 45.7ms | Allocations: 2364)
+  Rendered layout C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/application.html.erb (Duration: 568.2ms | Allocations: 51943)
+Completed 200 OK in 582ms (Views: 578.9ms | ActiveRecord: 0.3ms | Allocations: 53548)
+
+
+Started GET "/admin" for ::1 at 2023-05-21 16:17:38 +0700
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[36mActiveStorage::Attachment Count (11.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_storage_attachments"[0m
+  [1m[36mActiveStorage::Attachment Load (0.3ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" ORDER BY "active_storage_attachments"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mActiveStorage::Blob Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_storage_blobs"[0m
+  [1m[36mActiveStorage::Blob Load (0.4ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" ORDER BY "active_storage_blobs"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mCustomer Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "customers"[0m
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers" ORDER BY "customers"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mEmployee Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "employees"[0m
+  [1m[36mEmployee Load (0.4ms)[0m  [1m[34mSELECT "employees".* FROM "employees" ORDER BY "employees"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mActionText::EncryptedRichText Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "action_text_rich_texts"[0m
+  [1m[36mActionText::EncryptedRichText Load (0.4ms)[0m  [1m[34mSELECT "action_text_rich_texts".* FROM "action_text_rich_texts" ORDER BY "action_text_rich_texts"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mOrder Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "orders"[0m
+  [1m[36mOrder Load (0.3ms)[0m  [1m[34mSELECT "orders".* FROM "orders" ORDER BY "orders"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mPayment Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "payments"[0m
+  [1m[36mPayment Load (0.4ms)[0m  [1m[34mSELECT "payments".* FROM "payments" ORDER BY "payments"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mProduct Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "products"[0m
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mCACHE ActionText::RichText Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "action_text_rich_texts"[0m
+  [1m[36mCACHE ActionText::RichText Load (0.0ms)[0m  [1m[34mSELECT "action_text_rich_texts".* FROM "action_text_rich_texts" ORDER BY "action_text_rich_texts"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mSupplier Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "suppliers"[0m
+  [1m[36mSupplier Load (0.5ms)[0m  [1m[34mSELECT "suppliers".* FROM "suppliers" ORDER BY "suppliers"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mActiveStorage::VariantRecord Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_storage_variant_records"[0m
+  Rendering layout C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/application.html.erb
+  Rendering C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/rails_admin/main/dashboard.html.erb within layouts/rails_admin/application
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/rails_admin/main/dashboard.html.erb within layouts/rails_admin/application (Duration: 34.5ms | Allocations: 21686)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/_head.html.erb (Duration: 65.2ms | Allocations: 22687)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/_secondary_navigation.html.erb (Duration: 0.4ms | Allocations: 298)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/_navigation.html.erb (Duration: 1.0ms | Allocations: 443)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/_sidebar_navigation.html.erb (Duration: 4.2ms | Allocations: 5206)
+  Rendering C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/content.html.erb
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/content.html.erb (Duration: 1.0ms | Allocations: 585)
+  Rendered layout C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rails_admin-3.1.2/app/views/layouts/rails_admin/application.html.erb (Duration: 109.9ms | Allocations: 51157)
+Completed 200 OK in 202ms (Views: 114.3ms | ActiveRecord: 24.3ms | Allocations: 81191)
+
+
